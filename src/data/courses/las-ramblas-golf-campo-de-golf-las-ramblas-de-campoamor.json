@@ -1,0 +1,275 @@
+{
+  "id": "las-ramblas-golf-campo-de-golf-las-ramblas-de-campoamor",
+  "name": "Las Ramblas Golf (Campo de Golf Las Ramblas de Campoamor)",
+  "location": "Orihuela Costa (Dehesa de Campoamor), Alicante",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 3,
+      "par": 5,
+      "strokeIndex": 4
+    },
+    {
+      "number": 4,
+      "par": 5,
+      "strokeIndex": 2
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "strokeIndex": 5
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "strokeIndex": 9
+    },
+    {
+      "number": 13,
+      "par": 5,
+      "strokeIndex": 13
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 18,
+      "par": 5,
+      "strokeIndex": 11
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 72.2,
+      "slope": 137,
+      "distances": [
+        366,
+        325,
+        476,
+        459,
+        240,
+        115,
+        339,
+        290,
+        309,
+        164,
+        366,
+        192,
+        431,
+        139,
+        304,
+        377,
+        415,
+        452
+      ],
+      "totalMeters": 5759
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 71.8,
+      "slope": 136,
+      "distances": [
+        361,
+        320,
+        472,
+        454,
+        235,
+        112,
+        333,
+        285,
+        305,
+        159,
+        361,
+        187,
+        426,
+        134,
+        300,
+        372,
+        410,
+        447
+      ],
+      "totalMeters": 5673
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 69.5,
+      "slope": 131,
+      "distances": [
+        326,
+        305,
+        460,
+        394,
+        232,
+        108,
+        290,
+        273,
+        290,
+        146,
+        336,
+        157,
+        408,
+        111,
+        286,
+        320,
+        376,
+        397
+      ],
+      "totalMeters": 5215
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 75.3,
+      "slope": 143,
+      "distances": [
+        326,
+        305,
+        460,
+        394,
+        232,
+        108,
+        290,
+        273,
+        290,
+        146,
+        336,
+        157,
+        408,
+        111,
+        286,
+        320,
+        376,
+        397
+      ],
+      "totalMeters": 5215
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.4,
+      "slope": 125,
+      "distances": [
+        291,
+        248,
+        455,
+        371,
+        223,
+        103,
+        266,
+        250,
+        264,
+        135,
+        304,
+        155,
+        362,
+        98,
+        224,
+        315,
+        307,
+        362
+      ],
+      "totalMeters": 4733
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 72.4,
+      "slope": 139,
+      "distances": [
+        291,
+        248,
+        455,
+        371,
+        223,
+        103,
+        266,
+        250,
+        264,
+        135,
+        304,
+        155,
+        362,
+        98,
+        224,
+        315,
+        307,
+        362
+      ],
+      "totalMeters": 4733
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/club/campo_de_golf_las_ramblas_de_campoamor?id=537",
+    "https://www.thesocialgolfer.com/golf-courses/spain/costa-orihuela/club-de-golf-las-ramblas-de-orihuela/scorecard/club-de-golf-las-ramblas-de-orihuela-yellow-tee-scorecard",
+    "https://www.golfshake.com/course/view/23313/Club_de_Golf_las_Ramblas_de_Orihuela.html"
+  ],
+  "notes": "Primary source: RFEG club page (per-hole par, hcp, meters for 4 tees, Vc/Vs per gender). Cross-checked: The Social Golfer yellow-tee card matches RFEG hole-by-hole exactly for par, stroke index, and distances (its 'yards' column is mislabeled — values are meters, total 5673 = RFEG Amarillas). Golfshake totals in true yards (6298/6204/5703/5176) are exact conversions of RFEG meter totals (5759/5673/5215/4733) and its slopes 136/137/139 match. Verified: pars sum to 72 (front 37, back 35), stroke indexes form a permutation of 1-18, and each tee's 18 distances sum exactly to its published total. RFEG rates Blancas/Amarillas men-only; Azules and Rojas are rated for both genders (women's Vc/Vs: Azules 75.3/143, Rojas 72.4/139). Minor discrepancy: The Social Golfer lists rating 72.0/slope 129 for yellow, which differs from RFEG's 71.8/136 — RFEG values used as authoritative. Hole 5 is a short par 4 (240 m) — confirmed by both per-hole sources."
+}

@@ -1,0 +1,330 @@
+{
+  "id": "la-manga-club-campo-sur-south",
+  "name": "La Manga Club — Campo Sur (South)",
+  "location": "Los Belones (Cartagena), Murcia",
+  "parTotal": 73,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 4,
+      "par": 5,
+      "strokeIndex": 6
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 6,
+      "par": 5,
+      "strokeIndex": 2
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 9,
+      "par": 5,
+      "strokeIndex": 10
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 13,
+      "par": 5,
+      "strokeIndex": 11
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 15
+    },
+    {
+      "number": 18,
+      "par": 5,
+      "strokeIndex": 5
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 74.3,
+      "slope": 138,
+      "distances": [
+        394,
+        197,
+        358,
+        460,
+        201,
+        537,
+        372,
+        359,
+        503,
+        342,
+        360,
+        141,
+        550,
+        340,
+        397,
+        358,
+        178,
+        452
+      ],
+      "totalMeters": 6499
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 82.1,
+      "slope": 150,
+      "distances": [
+        394,
+        197,
+        358,
+        460,
+        201,
+        537,
+        372,
+        359,
+        503,
+        342,
+        360,
+        141,
+        550,
+        340,
+        397,
+        358,
+        178,
+        452
+      ],
+      "totalMeters": 6499
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 72.5,
+      "slope": 134,
+      "distances": [
+        379,
+        168,
+        346,
+        443,
+        177,
+        515,
+        349,
+        337,
+        472,
+        326,
+        348,
+        126,
+        497,
+        330,
+        382,
+        323,
+        174,
+        435
+      ],
+      "totalMeters": 6127
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 79.7,
+      "slope": 145,
+      "distances": [
+        379,
+        168,
+        346,
+        443,
+        177,
+        515,
+        349,
+        337,
+        472,
+        326,
+        348,
+        126,
+        497,
+        330,
+        382,
+        323,
+        174,
+        435
+      ],
+      "totalMeters": 6127
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 69.9,
+      "slope": 126,
+      "distances": [
+        349,
+        147,
+        321,
+        421,
+        154,
+        476,
+        326,
+        312,
+        455,
+        310,
+        327,
+        116,
+        475,
+        318,
+        365,
+        303,
+        149,
+        415
+      ],
+      "totalMeters": 5739
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 76.7,
+      "slope": 141,
+      "distances": [
+        349,
+        147,
+        321,
+        421,
+        154,
+        476,
+        326,
+        312,
+        455,
+        310,
+        327,
+        116,
+        475,
+        318,
+        365,
+        303,
+        149,
+        415
+      ],
+      "totalMeters": 5739
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.9,
+      "slope": 118,
+      "distances": [
+        329,
+        126,
+        252,
+        401,
+        126,
+        424,
+        301,
+        241,
+        427,
+        249,
+        284,
+        100,
+        445,
+        302,
+        331,
+        287,
+        138,
+        376
+      ],
+      "totalMeters": 5139
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 73.2,
+      "slope": 129,
+      "distances": [
+        329,
+        126,
+        252,
+        401,
+        126,
+        424,
+        301,
+        241,
+        427,
+        249,
+        284,
+        100,
+        445,
+        302,
+        331,
+        287,
+        138,
+        376
+      ],
+      "totalMeters": 5139
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/real_la_manga_club?id=542",
+    "https://www.lamangaclub.com/en/sports/golf/campo-sur/"
+  ],
+  "notes": "Data taken from the RFEG club page for REAL LA MANGA CLUB (id=542), which lists all rated recorridos for Campo Sur with per-hole Hdcp/Par/Metros and Vc/Vs per tee/gender; cross-checked against the club's official website scorecard, which matches hole-for-hole (pars, stroke indexes, all four tee distances, ratings, slopes). Par 73 (out 37, in 36); stroke index identical for all tees and both genders (RFEG shows one SI allocation). Per-hole distance sums equal published totals exactly for every tee (6499/6127/5739/5139 m). Each tee is rated for both genders, so two entries per tee share identical distances. Minor discrepancy: the club-website extraction showed hole 18 SI as 18, but RFEG lists SI 5 (18 is already hole 2's SI, so RFEG's permutation-valid value is used). RFEG lists designers as Robert Dean Putman and Dave Thomas; course remodeled by Arnold Palmer (2005). The resort's other rated courses (Campo Oeste, Campo Norte) and the par-47 pitch & putt were excluded as out of scope."
+}

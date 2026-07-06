@@ -1,0 +1,331 @@
+{
+  "id": "altaona-golf-country-village-formerly-mosa-trajectum",
+  "name": "Altaona Golf & Country Village (formerly Mosa Trajectum)",
+  "location": "Baños y Mendigo, Murcia",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "strokeIndex": 11
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 9,
+      "par": 5,
+      "strokeIndex": 1
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 12,
+      "par": 5,
+      "strokeIndex": 2
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 14,
+      "par": 5,
+      "strokeIndex": 6
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 14
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 72.6,
+      "slope": 134,
+      "distances": [
+        494,
+        432,
+        167,
+        355,
+        310,
+        340,
+        375,
+        224,
+        487,
+        331,
+        148,
+        546,
+        284,
+        489,
+        330,
+        403,
+        148,
+        354
+      ],
+      "totalMeters": 6217
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 77.5,
+      "slope": 128,
+      "distances": [
+        494,
+        432,
+        167,
+        355,
+        310,
+        340,
+        375,
+        224,
+        487,
+        331,
+        148,
+        546,
+        284,
+        489,
+        330,
+        403,
+        148,
+        354
+      ],
+      "totalMeters": 6217
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 69.5,
+      "slope": 121,
+      "distances": [
+        476,
+        385,
+        105,
+        323,
+        292,
+        315,
+        348,
+        163,
+        458,
+        315,
+        134,
+        509,
+        262,
+        459,
+        294,
+        376,
+        114,
+        310
+      ],
+      "totalMeters": 5638
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 74.6,
+      "slope": 126,
+      "distances": [
+        476,
+        385,
+        105,
+        323,
+        292,
+        315,
+        348,
+        163,
+        458,
+        315,
+        134,
+        509,
+        262,
+        459,
+        294,
+        376,
+        114,
+        310
+      ],
+      "totalMeters": 5638
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 66.6,
+      "slope": 112,
+      "distances": [
+        446,
+        363,
+        98,
+        301,
+        279,
+        290,
+        295,
+        132,
+        385,
+        272,
+        115,
+        473,
+        224,
+        434,
+        253,
+        341,
+        97,
+        279
+      ],
+      "totalMeters": 5077
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 72,
+      "slope": 126,
+      "distances": [
+        446,
+        363,
+        98,
+        301,
+        279,
+        290,
+        295,
+        132,
+        385,
+        272,
+        115,
+        473,
+        224,
+        434,
+        253,
+        341,
+        97,
+        279
+      ],
+      "totalMeters": 5077
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 63.1,
+      "slope": 104,
+      "distances": [
+        375,
+        318,
+        76,
+        252,
+        249,
+        225,
+        251,
+        80,
+        351,
+        233,
+        96,
+        428,
+        221,
+        394,
+        223,
+        303,
+        75,
+        249
+      ],
+      "totalMeters": 4399
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 67.7,
+      "slope": 121,
+      "distances": [
+        375,
+        318,
+        76,
+        252,
+        249,
+        225,
+        251,
+        80,
+        351,
+        233,
+        96,
+        428,
+        221,
+        394,
+        223,
+        303,
+        75,
+        249
+      ],
+      "totalMeters": 4399
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/campo_de_golf_altaona?id=545",
+    "https://18birdies.com/golf-courses/club/ca281980-86ac-11e4-8c28-020000005b00/altaona",
+    "https://www.golfshake.com/course/view/73656/Altaona_Golf_Country_Village.html"
+  ],
+  "notes": "Primary source is the official RFEG club page (CAMPO DE GOLF ALTAONA, id=545), which lists the current 18-hole Altaona layout (re-established 2021 from the former Mosa Trajectum 27-hole complex; not double-counted). Internal consistency verified: pars sum to 72 (36/36), stroke indexes are a permutation of 1-18 (odd on front nine, even on back), and each tee's 18 per-hole meters sum exactly to RFEG's published totals (6217/5638/5077/4399). All four tees carry RFEG ratings for both genders. Cross-check: 18Birdies shows the identical par sequence and near-identical yellow-tee per-hole distances (older measurement, total 5770 m) but a different stroke-index allocation (e.g. SI 1 on hole 2 vs RFEG SI 1 on hole 9) — RFEG's current allocation is used. Golfshake lists slightly different yardage totals (Yellow 6236 yd, Red 4885 yd) with older SSS/slope figures (70/124, 72/113), likely a pre-rerating card. Stroke index shown is the RFEG allocation, common to all tees on the card."
+}

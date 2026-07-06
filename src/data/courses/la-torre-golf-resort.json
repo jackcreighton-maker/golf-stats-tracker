@@ -1,0 +1,331 @@
+{
+  "id": "la-torre-golf-resort",
+  "name": "La Torre Golf Resort",
+  "location": "Roldán (Torre-Pacheco), Murcia",
+  "parTotal": 68,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 17
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "strokeIndex": 7
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "strokeIndex": 13
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 7,
+      "par": 5,
+      "strokeIndex": 11
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "strokeIndex": 5
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "strokeIndex": 4
+    },
+    {
+      "number": 12,
+      "par": 5,
+      "strokeIndex": 12
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 18
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 8
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 6
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 69.1,
+      "slope": 128,
+      "distances": [
+        332,
+        415,
+        178,
+        334,
+        154,
+        278,
+        471,
+        347,
+        180,
+        401,
+        201,
+        446,
+        336,
+        340,
+        165,
+        302,
+        177,
+        346
+      ],
+      "totalMeters": 5403
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 71.8,
+      "slope": 131,
+      "distances": [
+        332,
+        415,
+        178,
+        334,
+        154,
+        278,
+        471,
+        347,
+        180,
+        401,
+        201,
+        446,
+        336,
+        340,
+        165,
+        302,
+        177,
+        346
+      ],
+      "totalMeters": 5403
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 66.5,
+      "slope": 124,
+      "distances": [
+        303,
+        383,
+        164,
+        314,
+        131,
+        261,
+        451,
+        331,
+        145,
+        373,
+        170,
+        438,
+        308,
+        312,
+        139,
+        276,
+        153,
+        329
+      ],
+      "totalMeters": 4981
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 69.7,
+      "slope": 128,
+      "distances": [
+        303,
+        383,
+        164,
+        314,
+        131,
+        261,
+        451,
+        331,
+        145,
+        373,
+        170,
+        438,
+        308,
+        312,
+        139,
+        276,
+        153,
+        329
+      ],
+      "totalMeters": 4981
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 63.7,
+      "slope": 116,
+      "distances": [
+        273,
+        352,
+        159,
+        280,
+        105,
+        232,
+        425,
+        313,
+        131,
+        346,
+        145,
+        387,
+        288,
+        277,
+        108,
+        250,
+        134,
+        302
+      ],
+      "totalMeters": 4507
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 67.4,
+      "slope": 120,
+      "distances": [
+        273,
+        352,
+        159,
+        280,
+        105,
+        232,
+        425,
+        313,
+        131,
+        346,
+        145,
+        387,
+        288,
+        277,
+        108,
+        250,
+        134,
+        302
+      ],
+      "totalMeters": 4507
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 60.4,
+      "slope": 106,
+      "distances": [
+        242,
+        311,
+        134,
+        242,
+        81,
+        214,
+        375,
+        258,
+        96,
+        310,
+        114,
+        366,
+        240,
+        250,
+        82,
+        210,
+        96,
+        263
+      ],
+      "totalMeters": 3884
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 64.5,
+      "slope": 119,
+      "distances": [
+        242,
+        311,
+        134,
+        242,
+        81,
+        214,
+        375,
+        258,
+        96,
+        310,
+        114,
+        366,
+        240,
+        250,
+        82,
+        210,
+        96,
+        263
+      ],
+      "totalMeters": 3884
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/la_torre_golf?id=551",
+    "https://www.golfingholiday.com/golf-course/la-torre/course-map-score-card/",
+    "https://www.golfshake.com/course/view/13152/La_Torre_Golf_Resort.html"
+  ],
+  "notes": "Par-68 Nicklaus Design course (six par 3s, front and back both par 34). Hole data (par, hcp, per-hole meters, Vc/Vs per tee and gender) taken from the official RFEG club page. Cross-checked with golfingholiday.com scorecard (yards): pars identical and all per-hole yardages convert exactly to RFEG meters (totals 5909/5447/4929/4248 yd = 5403/4981/4507/3884 m); golfshake totals and white-tee men's slope (128) also agree. Discrepancy: golfingholiday shows a different stroke-index allocation (e.g. SI 1 on hole 10, SI 2 on hole 2); the RFEG men's handicap allocation (SI 1 = hole 2, SI 2 = hole 10, etc.) is used here as authoritative. Golfshake's older SSS/slope figures for yellow/blue/red differ slightly from current RFEG ratings; RFEG values are used. All four tees are rated for both genders, so each appears twice with identical distances."
+}

@@ -1,0 +1,218 @@
+{
+  "id": "marina-golf-mojacar-club-marina-golf-mojacar",
+  "name": "Marina Golf Mojácar (Club Marina Golf-Mojácar)",
+  "location": "Mojácar, Almería",
+  "parTotal": 71,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 4,
+      "par": 5,
+      "strokeIndex": 8
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "strokeIndex": 6
+    },
+    {
+      "number": 10,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 16,
+      "par": 5,
+      "strokeIndex": 7
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 15
+    },
+    {
+      "number": 18,
+      "par": 5,
+      "strokeIndex": 5
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 67.7,
+      "slope": 129,
+      "distances": [
+        294,
+        155,
+        247,
+        475,
+        127,
+        333,
+        316,
+        320,
+        169,
+        480,
+        307,
+        276,
+        245,
+        155,
+        282,
+        444,
+        146,
+        460
+      ],
+      "totalMeters": 5231
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 67.3,
+      "slope": 128,
+      "distances": [
+        292,
+        150,
+        241,
+        468,
+        125,
+        326,
+        310,
+        315,
+        162,
+        476,
+        302,
+        274,
+        240,
+        150,
+        275,
+        437,
+        143,
+        455
+      ],
+      "totalMeters": 5141
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 64,
+      "slope": 109,
+      "distances": [
+        250,
+        128,
+        223,
+        409,
+        105,
+        277,
+        265,
+        268,
+        143,
+        404,
+        257,
+        230,
+        215,
+        128,
+        234,
+        370,
+        124,
+        395
+      ],
+      "totalMeters": 4425
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 67.8,
+      "slope": 119,
+      "distances": [
+        250,
+        128,
+        223,
+        409,
+        105,
+        277,
+        265,
+        268,
+        143,
+        404,
+        257,
+        230,
+        215,
+        128,
+        234,
+        370,
+        124,
+        395
+      ],
+      "totalMeters": 4425
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/club/club_marina_golf_mojacar?id=297",
+    "https://www.mscorecard.com/mscorecard/showcourse.php?cid=1213823456216"
+  ],
+  "notes": "Primary source RFEG club page (id=297) provided per-hole par, hcp (stroke index) and meters for Blancas, Amarillas and Rojas, plus Vc/Vs ratings. mScorecard.com independently confirms all 18 per-hole distances for White/Yellow/Red tees and all pars exactly (mScorecard lists no SI; SI taken from RFEG, same allocation across tees). Internal checks pass: pars sum to 71 (34 out / 37 in), SIs are a permutation of 1-18, tee distances sum exactly to published totals (5231/5141/4425). Rojas is rated for both genders on RFEG (men Vc 64.0/Vs 109; women Vc 67.8/Vs 119); Blancas and Amarillas are rated for men only. RFEG also lists a separate short 'Verdes' recorrido (par 58, 2310 m, women Vc 55.4/Vs 68, men Vc 53.2/Vs 62) which is a different pitch-and-putt style circuit, not a tee of the main 18-hole course, so it is excluded. Note: some aggregator sites (golfshake) show older/imperial figures (e.g. yellow 5107 yards, slope 122) that predate the current RFEG rating."
+}

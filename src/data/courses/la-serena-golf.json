@@ -1,0 +1,332 @@
+{
+  "id": "la-serena-golf",
+  "name": "La Serena Golf",
+  "location": "Los Alcázares, Murcia",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 5,
+      "strokeIndex": 7
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "strokeIndex": 1
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 7,
+      "par": 5,
+      "strokeIndex": 17
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "strokeIndex": 13
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 11,
+      "par": 5,
+      "strokeIndex": 18
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "strokeIndex": 8
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 4
+    },
+    {
+      "number": 18,
+      "par": 5,
+      "strokeIndex": 14
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 73.2,
+      "slope": 136,
+      "distances": [
+        513,
+        353,
+        182,
+        373,
+        363,
+        358,
+        458,
+        307,
+        164,
+        398,
+        515,
+        406,
+        280,
+        330,
+        195,
+        334,
+        167,
+        500
+      ],
+      "totalMeters": 6196
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 80.1,
+      "slope": 151,
+      "distances": [
+        513,
+        353,
+        182,
+        373,
+        363,
+        358,
+        458,
+        307,
+        164,
+        398,
+        515,
+        406,
+        280,
+        330,
+        195,
+        334,
+        167,
+        500
+      ],
+      "totalMeters": 6196
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 71.8,
+      "slope": 133,
+      "distances": [
+        494,
+        331,
+        170,
+        356,
+        346,
+        350,
+        442,
+        292,
+        157,
+        382,
+        500,
+        385,
+        265,
+        322,
+        172,
+        315,
+        150,
+        480
+      ],
+      "totalMeters": 5909
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 78.1,
+      "slope": 147,
+      "distances": [
+        494,
+        331,
+        170,
+        356,
+        346,
+        350,
+        442,
+        292,
+        157,
+        382,
+        500,
+        385,
+        265,
+        322,
+        172,
+        315,
+        150,
+        480
+      ],
+      "totalMeters": 5909
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 68.6,
+      "slope": 122,
+      "distances": [
+        466,
+        291,
+        131,
+        321,
+        311,
+        299,
+        401,
+        256,
+        120,
+        341,
+        464,
+        366,
+        244,
+        306,
+        143,
+        267,
+        134,
+        442
+      ],
+      "totalMeters": 5303
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 74.7,
+      "slope": 140,
+      "distances": [
+        466,
+        291,
+        131,
+        321,
+        311,
+        299,
+        401,
+        256,
+        120,
+        341,
+        464,
+        366,
+        244,
+        306,
+        143,
+        267,
+        134,
+        442
+      ],
+      "totalMeters": 5303
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.7,
+      "slope": 121,
+      "distances": [
+        443,
+        269,
+        116,
+        303,
+        293,
+        259,
+        379,
+        236,
+        115,
+        321,
+        445,
+        359,
+        220,
+        288,
+        120,
+        241,
+        116,
+        421
+      ],
+      "totalMeters": 4944
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 72.5,
+      "slope": 134,
+      "distances": [
+        443,
+        269,
+        116,
+        303,
+        293,
+        259,
+        379,
+        236,
+        115,
+        321,
+        445,
+        359,
+        220,
+        288,
+        120,
+        241,
+        116,
+        421
+      ],
+      "totalMeters": 4944
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/la_serena_golf_&_beach_resort?id=550",
+    "https://www.serenagolf.com/guia-de-hoyos/hoyo-3",
+    "https://www.serenagolf.com/guia-de-hoyos/hoyo-8",
+    "https://www.golfshake.com/course/view/23502/La_Serena_Golf.html"
+  ],
+  "notes": "Primary data from the official RFEG club page (all 8 rated recorridos: Blancas/Amarillas/Azules/Rojas, each rated for men and women). Stroke index is identical on the RFEG card for all tees and genders (permutation of 1-18 verified; pars sum to 72; each tee's 18 distances sum exactly to its published total). Cross-checked against the club's own hole-by-hole guide (serenagolf.com): hole 3 (par 3, HCP 1, 182/170/131/116 m) and hole 8 (par 4, HCP 9, 292 m amarillas) match RFEG exactly. Discrepancy: golfshake.com lists aggregate 'yards' of 6168 (white) and 5884 (yellow) with front/back 3175/3260, which do not match the RFEG meters (6196/5909, front/back 3071/3125); golfshake appears to use an older or mislabeled card and was not used for hole data. Course designed by Manuel Piñero; water in play on 16 of 18 holes."
+}

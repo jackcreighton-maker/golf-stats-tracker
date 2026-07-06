@@ -1,0 +1,274 @@
+{
+  "id": "la-envia-golf",
+  "name": "La Envía Golf",
+  "location": "Vícar, Almería",
+  "parTotal": 70,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 4,
+      "par": 5,
+      "strokeIndex": 6
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 18
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "strokeIndex": 12
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "strokeIndex": 7
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "strokeIndex": 13
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 13,
+      "par": 5,
+      "strokeIndex": 11
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 16,
+      "par": 5,
+      "strokeIndex": 9
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 5
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 70.1,
+      "slope": 126,
+      "distances": [
+        417,
+        364,
+        157,
+        468,
+        373,
+        316,
+        312,
+        122,
+        256,
+        168,
+        165,
+        379,
+        424,
+        354,
+        125,
+        430,
+        258,
+        317
+      ],
+      "totalMeters": 5405
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 75.6,
+      "slope": 131,
+      "distances": [
+        417,
+        364,
+        157,
+        468,
+        373,
+        316,
+        312,
+        122,
+        256,
+        168,
+        165,
+        379,
+        424,
+        354,
+        125,
+        430,
+        258,
+        317
+      ],
+      "totalMeters": 5405
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 68.9,
+      "slope": 125,
+      "distances": [
+        354,
+        359,
+        140,
+        453,
+        366,
+        296,
+        305,
+        120,
+        251,
+        165,
+        158,
+        376,
+        423,
+        339,
+        122,
+        426,
+        257,
+        268
+      ],
+      "totalMeters": 5178
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 74.1,
+      "slope": 130,
+      "distances": [
+        354,
+        359,
+        140,
+        453,
+        366,
+        296,
+        305,
+        120,
+        251,
+        165,
+        158,
+        376,
+        423,
+        339,
+        122,
+        426,
+        257,
+        268
+      ],
+      "totalMeters": 5178
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.1,
+      "slope": 118,
+      "distances": [
+        263,
+        341,
+        132,
+        414,
+        348,
+        282,
+        292,
+        104,
+        239,
+        138,
+        145,
+        287,
+        406,
+        289,
+        109,
+        374,
+        251,
+        239
+      ],
+      "totalMeters": 4653
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 71.3,
+      "slope": 124,
+      "distances": [
+        263,
+        341,
+        132,
+        414,
+        348,
+        282,
+        292,
+        104,
+        239,
+        138,
+        145,
+        287,
+        406,
+        289,
+        109,
+        374,
+        251,
+        239
+      ],
+      "totalMeters": 4653
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/club/la_envia_golf?id=809",
+    "https://www.mscorecard.com/mscorecard/showcourse.php?cid=1488454265118378"
+  ],
+  "notes": "Per-hole par, stroke index (hcp), and meters taken from the RFEG club page (federative code AM23); all per-hole distances and pars for Blancas/Amarillas/Rojas independently confirmed by mscorecard.com, which matched hole-for-hole (Out/In/Total: 5405, 5178, 4653 m). Stroke index is identical across all rated tees on RFEG (even SI on front nine, odd on back nine). Internal checks pass: pars sum to 70 (35/35), SI is a permutation of 1-18, each tee's per-hole meters sum exactly to its published total. Ratings per RFEG: Blancas M 70.1/126, F 75.6/131; Amarillas M 68.9/125, F 74.1/130; Rojas M 66.1/118, F 71.3/124. RFEG also lists two short-course recorridos on a separate 9-hole layout (played twice) that are NOT part of this 18-hole scorecard and were excluded: Pequecircuito Amarillas/Rojas (par 54, 2290 m, M 53.9/62, F 55.8/70) and Naranjas (par 58, 2344 m, M 53.6/62, F 55.0/71). Note an initial summarized fetch of the RFEG page swapped gender labels on ratings; the verbatim table extraction (used here) is consistent with expected gender rating relationships."
+}

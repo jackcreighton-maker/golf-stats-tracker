@@ -1,0 +1,330 @@
+{
+  "id": "camposol-club-de-golf",
+  "name": "Camposol Club de Golf",
+  "location": "Camposol (Mazarrón), Murcia",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 2,
+      "par": 5,
+      "strokeIndex": 11
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "strokeIndex": 15
+    },
+    {
+      "number": 6,
+      "par": 5,
+      "strokeIndex": 5
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 12,
+      "par": 5,
+      "strokeIndex": 8
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 14,
+      "par": 5,
+      "strokeIndex": 14
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 12
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 70.4,
+      "slope": 128,
+      "distances": [
+        417,
+        459,
+        158,
+        325,
+        129,
+        482,
+        398,
+        238,
+        262,
+        342,
+        123,
+        448,
+        109,
+        461,
+        393,
+        358,
+        317,
+        354
+      ],
+      "totalMeters": 5773
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 76.9,
+      "slope": 136,
+      "distances": [
+        417,
+        459,
+        158,
+        325,
+        129,
+        482,
+        398,
+        238,
+        262,
+        342,
+        123,
+        448,
+        109,
+        461,
+        393,
+        358,
+        317,
+        354
+      ],
+      "totalMeters": 5773
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 69.4,
+      "slope": 125,
+      "distances": [
+        399,
+        431,
+        138,
+        317,
+        119,
+        473,
+        390,
+        225,
+        255,
+        333,
+        117,
+        440,
+        94,
+        449,
+        383,
+        349,
+        306,
+        345
+      ],
+      "totalMeters": 5563
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 75.6,
+      "slope": 135,
+      "distances": [
+        399,
+        431,
+        138,
+        317,
+        119,
+        473,
+        390,
+        225,
+        255,
+        333,
+        117,
+        440,
+        94,
+        449,
+        383,
+        349,
+        306,
+        345
+      ],
+      "totalMeters": 5563
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 67.6,
+      "slope": 121,
+      "distances": [
+        361,
+        412,
+        128,
+        305,
+        110,
+        447,
+        381,
+        216,
+        234,
+        326,
+        111,
+        432,
+        80,
+        439,
+        346,
+        337,
+        299,
+        313
+      ],
+      "totalMeters": 5277
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 73.9,
+      "slope": 132,
+      "distances": [
+        361,
+        412,
+        128,
+        305,
+        110,
+        447,
+        381,
+        216,
+        234,
+        326,
+        111,
+        432,
+        80,
+        439,
+        346,
+        337,
+        299,
+        313
+      ],
+      "totalMeters": 5277
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 67.1,
+      "slope": 118,
+      "distances": [
+        361,
+        404,
+        124,
+        305,
+        110,
+        447,
+        374,
+        208,
+        234,
+        317,
+        111,
+        432,
+        80,
+        376,
+        339,
+        337,
+        299,
+        307
+      ],
+      "totalMeters": 5165
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 73.4,
+      "slope": 131,
+      "distances": [
+        361,
+        404,
+        124,
+        305,
+        110,
+        447,
+        374,
+        208,
+        234,
+        317,
+        111,
+        432,
+        80,
+        376,
+        339,
+        337,
+        299,
+        307
+      ],
+      "totalMeters": 5165
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/camposol_club_de_golf?id=546",
+    "https://www.thesocialgolfer.com/golf-courses/spain/costa-calida/camposol-golf-club/scorecard/camposol-golf-club-white-tee-scorecard"
+  ],
+  "notes": "Primary data scraped directly from the official RFEG club page (federation code MM15), which embeds full per-hole tables (Hoyo/Hdcp/Par/Metros) for all 8 rated recorridos: Blancas/Amarillas/Azules/Rojas, each rated for men and women. Internal consistency verified: men's pars sum to 72 (36/36), stroke indexes are a permutation of 1-18 (odd SI on front nine, even on back), and every tee's 18 distances sum exactly to its published total (5773/5563/5277/5165 m). Holes/par/SI above are the men's card. Ladies' card differences per RFEG: hole 7 is par 5 for women (women's par total 73); women's per-hole Hdcp allocation is identical to the men's. Cross-check with TheSocialGolfer's white-tee scorecard confirms the identical par sequence and near-identical distances (within ~5 m per hole, older card mislabeled as yards); its stroke indexes (SI 1 on hole 7 but different elsewhere) and rating (71.0/136) differ from the current official RFEG values, so RFEG figures were used. golfify.io and mscorecard.com returned HTTP 403 and could not be checked. Note: rfeg.es intermittently serves cached pages for other clubs on the same URL; the extracted page was verified to be titled CAMPOSOL CLUB DE GOLF with recorridos named CAMPOSOL."
+}

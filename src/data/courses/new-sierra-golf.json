@@ -1,0 +1,331 @@
+{
+  "id": "new-sierra-golf",
+  "name": "New Sierra Golf",
+  "location": "Balsicas (Torre-Pacheco), Murcia",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 5,
+      "strokeIndex": 4
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 4,
+      "par": 5,
+      "strokeIndex": 2
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "strokeIndex": 12
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 11,
+      "par": 5,
+      "strokeIndex": 7
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "strokeIndex": 13
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 17
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 11
+    },
+    {
+      "number": 18,
+      "par": 5,
+      "strokeIndex": 5
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 76,
+      "slope": 133,
+      "distances": [
+        533,
+        368,
+        185,
+        534,
+        361,
+        186,
+        407,
+        369,
+        387,
+        400,
+        532,
+        394,
+        155,
+        448,
+        422,
+        421,
+        181,
+        535
+      ],
+      "totalMeters": 6818
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 83.8,
+      "slope": 139,
+      "distances": [
+        533,
+        368,
+        185,
+        534,
+        361,
+        186,
+        407,
+        369,
+        387,
+        400,
+        532,
+        394,
+        155,
+        448,
+        422,
+        421,
+        181,
+        535
+      ],
+      "totalMeters": 6818
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 73,
+      "slope": 130,
+      "distances": [
+        480,
+        313,
+        153,
+        492,
+        336,
+        165,
+        374,
+        347,
+        339,
+        362,
+        495,
+        379,
+        123,
+        417,
+        399,
+        395,
+        169,
+        523
+      ],
+      "totalMeters": 6261
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 80.3,
+      "slope": 137,
+      "distances": [
+        480,
+        313,
+        153,
+        492,
+        336,
+        165,
+        374,
+        347,
+        339,
+        362,
+        495,
+        379,
+        123,
+        417,
+        399,
+        395,
+        169,
+        523
+      ],
+      "totalMeters": 6261
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 70,
+      "slope": 128,
+      "distances": [
+        438,
+        308,
+        143,
+        448,
+        301,
+        125,
+        350,
+        319,
+        308,
+        325,
+        463,
+        350,
+        108,
+        389,
+        367,
+        358,
+        161,
+        495
+      ],
+      "totalMeters": 5756
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 77.2,
+      "slope": 137,
+      "distances": [
+        438,
+        308,
+        143,
+        448,
+        301,
+        125,
+        350,
+        319,
+        308,
+        325,
+        463,
+        350,
+        108,
+        389,
+        367,
+        358,
+        161,
+        495
+      ],
+      "totalMeters": 5756
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 68.9,
+      "slope": 124,
+      "distances": [
+        432,
+        270,
+        115,
+        442,
+        296,
+        119,
+        344,
+        312,
+        302,
+        318,
+        455,
+        342,
+        102,
+        380,
+        359,
+        350,
+        153,
+        488
+      ],
+      "totalMeters": 5579
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 76,
+      "slope": 135,
+      "distances": [
+        432,
+        270,
+        115,
+        442,
+        296,
+        119,
+        344,
+        312,
+        302,
+        318,
+        455,
+        342,
+        102,
+        380,
+        359,
+        350,
+        153,
+        488
+      ],
+      "totalMeters": 5579
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/ClubPaginas/ClubMicrosite.aspx?ClubId=670",
+    "https://rfegolf.es/club/club_sierra_golf?id=555",
+    "https://newsierragolf.com/"
+  ],
+  "notes": "Per-hole pars, stroke indexes and meters come from the RFEG club microsite (ClubId=670) and were cross-checked against the club's official website scorecard at newsierragolf.com — all 72 per-hole distances and all pars match exactly. Internal consistency verified: pars sum to 72 (36 out / 36 in), stroke indexes form a permutation of 1-18, and each tee's 18 distances sum exactly to the published totals (Blancas 6818 m, Amarillas 6261 m, Azules 5756 m, Rojas 5579 m). RFEG 9-hole rating splits for men: Blancas 37.5/132 + 38.5/134; Amarillas 35.7/133 + 37.3/126; Azules 34.2/127 + 35.8/129; Rojas 33.5/120 + 35.4/128. Women's ratings (Vc/Vs) come from the RFEG club listing page (id=555, Club Sierra Golf — same facility, Carretera Hacienda del Escobar 1, Balsicas), which rates all four tees for both genders; its men's values match the microsite's 18-hole totals exactly, so the women's figures are taken as the current 18-hole ratings. Minor discrepancy: the club website's HCP column rendered noisily in extraction (e.g. hole 1 showed 5 vs RFEG 4, hole 18 duplicated 5); the RFEG stroke-index allocation (identical across all tees) is used as authoritative. golfify.io, mscorecard.com and 1golf.eu returned 403 and could not be used as additional cross-checks. Note the Blancas card is very long (6818 m); this is as published by RFEG for the expanded 18-hole layout."
+}

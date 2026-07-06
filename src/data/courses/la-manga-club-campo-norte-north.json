@@ -1,0 +1,331 @@
+{
+  "id": "la-manga-club-campo-norte-north",
+  "name": "La Manga Club — Campo Norte (North)",
+  "location": "Los Belones (Cartagena), Murcia",
+  "parTotal": 71,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 3,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "strokeIndex": 14
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 6,
+      "par": 5,
+      "strokeIndex": 1
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 12,
+      "par": 5,
+      "strokeIndex": 10
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 15,
+      "par": 5,
+      "strokeIndex": 8
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "strokeIndex": 15
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 6
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 71,
+      "slope": 132,
+      "distances": [
+        309,
+        106,
+        437,
+        177,
+        368,
+        483,
+        360,
+        159,
+        317,
+        294,
+        333,
+        535,
+        161,
+        321,
+        478,
+        184,
+        352,
+        381
+      ],
+      "totalMeters": 5755
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 76.7,
+      "slope": 146,
+      "distances": [
+        309,
+        106,
+        437,
+        177,
+        368,
+        483,
+        360,
+        159,
+        317,
+        294,
+        333,
+        535,
+        161,
+        321,
+        478,
+        184,
+        352,
+        381
+      ],
+      "totalMeters": 5755
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 69,
+      "slope": 131,
+      "distances": [
+        286,
+        94,
+        434,
+        154,
+        341,
+        468,
+        342,
+        144,
+        300,
+        271,
+        319,
+        505,
+        146,
+        308,
+        456,
+        159,
+        339,
+        360
+      ],
+      "totalMeters": 5426
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 74.8,
+      "slope": 142,
+      "distances": [
+        286,
+        94,
+        434,
+        154,
+        341,
+        468,
+        342,
+        144,
+        300,
+        271,
+        319,
+        505,
+        146,
+        308,
+        456,
+        159,
+        339,
+        360
+      ],
+      "totalMeters": 5426
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 67.1,
+      "slope": 121,
+      "distances": [
+        273,
+        86,
+        424,
+        145,
+        323,
+        453,
+        331,
+        138,
+        291,
+        262,
+        307,
+        486,
+        128,
+        297,
+        440,
+        146,
+        322,
+        335
+      ],
+      "totalMeters": 5187
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 73.3,
+      "slope": 139,
+      "distances": [
+        273,
+        86,
+        424,
+        145,
+        323,
+        453,
+        331,
+        138,
+        291,
+        262,
+        307,
+        486,
+        128,
+        297,
+        440,
+        146,
+        322,
+        335
+      ],
+      "totalMeters": 5187
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.1,
+      "slope": 118,
+      "distances": [
+        272,
+        83,
+        414,
+        109,
+        268,
+        446,
+        326,
+        117,
+        287,
+        256,
+        302,
+        476,
+        125,
+        292,
+        427,
+        139,
+        288,
+        335
+      ],
+      "totalMeters": 4962
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 71.9,
+      "slope": 132,
+      "distances": [
+        272,
+        83,
+        414,
+        109,
+        268,
+        446,
+        326,
+        117,
+        287,
+        256,
+        302,
+        476,
+        125,
+        292,
+        427,
+        139,
+        288,
+        335
+      ],
+      "totalMeters": 4962
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/club/real_la_manga_club?id=542",
+    "https://mitarjeta.golf/campo/la-manga-club-norte/",
+    "https://www.thesocialgolfer.com/golf-courses/spain/costa-calida/la-manga/scorecard/la-manga-north-course-red-tee-scorecard"
+  ],
+  "notes": "Data extracted directly from the raw HTML of the official RFEG club page (REAL LA MANGA CLUB, id=542), recorrido tables holes_4858/10422 (Blancas M/F), holes_4859/10421 (Amarillas M/F), holes_4861/4860 (Azules M/F), holes_4862/4863 (Rojas M/F). All internal checks pass: pars sum to 71 (out 35 / in 36), stroke indexes are a permutation of 1-18 and identical for every tee and gender, and each tee's 18 distances sum exactly to the RFEG-listed total (5755/5426/5187/4962). Cross-checked with mitarjeta.golf (RFEG live-scoring card for the Norte course), which matches par, handicap, and Azules/Rojas per-hole meters exactly; The Social Golfer's red-tee rating 71.9/slope 132 matches the RFEG Rojas (F) rating. Note: the RFEG page also lists two short 'Cto. España Ben. 2026' junior-championship recorridos on this course (4180 m / 3916 m, par 70) which are competition setups, not standard tee sets, and were excluded. RFEG shows no Negras/black tee for the North course. Stroke index shown is the single allocation RFEG publishes for all tees."
+}

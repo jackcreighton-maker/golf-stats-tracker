@@ -1,0 +1,330 @@
+{
+  "id": "la-manga-club-campo-oeste-west",
+  "name": "La Manga Club — Campo Oeste (West)",
+  "location": "Los Belones, Cartagena, Murcia",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 3,
+      "par": 5,
+      "strokeIndex": 6
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 6,
+      "par": 5,
+      "strokeIndex": 4
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "strokeIndex": 14
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 9,
+      "par": 5,
+      "strokeIndex": 8
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "strokeIndex": 5
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 17
+    },
+    {
+      "number": 15,
+      "par": 5,
+      "strokeIndex": 9
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "strokeIndex": 7
+    },
+    {
+      "number": 17,
+      "par": 5,
+      "strokeIndex": 13
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 11
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 73.5,
+      "slope": 140,
+      "distances": [
+        306,
+        162,
+        428,
+        149,
+        307,
+        437,
+        152,
+        368,
+        435,
+        322,
+        357,
+        360,
+        177,
+        300,
+        456,
+        189,
+        435,
+        374
+      ],
+      "totalMeters": 5714
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 78.8,
+      "slope": 149,
+      "distances": [
+        306,
+        162,
+        428,
+        149,
+        307,
+        437,
+        152,
+        368,
+        435,
+        322,
+        357,
+        360,
+        177,
+        300,
+        456,
+        189,
+        435,
+        374
+      ],
+      "totalMeters": 5714
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 72.4,
+      "slope": 139,
+      "distances": [
+        298,
+        151,
+        427,
+        125,
+        287,
+        436,
+        149,
+        345,
+        435,
+        309,
+        342,
+        348,
+        168,
+        290,
+        435,
+        177,
+        435,
+        364
+      ],
+      "totalMeters": 5521
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 77.5,
+      "slope": 146,
+      "distances": [
+        298,
+        151,
+        427,
+        125,
+        287,
+        436,
+        149,
+        345,
+        435,
+        309,
+        342,
+        348,
+        168,
+        290,
+        435,
+        177,
+        435,
+        364
+      ],
+      "totalMeters": 5521
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 68.7,
+      "slope": 133,
+      "distances": [
+        279,
+        128,
+        407,
+        116,
+        283,
+        404,
+        132,
+        330,
+        372,
+        270,
+        322,
+        333,
+        143,
+        282,
+        427,
+        152,
+        426,
+        324
+      ],
+      "totalMeters": 5130
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 75.2,
+      "slope": 141,
+      "distances": [
+        279,
+        128,
+        407,
+        116,
+        283,
+        404,
+        132,
+        330,
+        372,
+        270,
+        322,
+        333,
+        143,
+        282,
+        427,
+        152,
+        426,
+        324
+      ],
+      "totalMeters": 5130
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.6,
+      "slope": 128,
+      "distances": [
+        257,
+        111,
+        391,
+        102,
+        266,
+        378,
+        124,
+        266,
+        366,
+        256,
+        313,
+        278,
+        140,
+        268,
+        409,
+        126,
+        412,
+        261
+      ],
+      "totalMeters": 4724
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 72.7,
+      "slope": 135,
+      "distances": [
+        257,
+        111,
+        391,
+        102,
+        266,
+        378,
+        124,
+        266,
+        366,
+        256,
+        313,
+        278,
+        140,
+        268,
+        409,
+        126,
+        412,
+        261
+      ],
+      "totalMeters": 4724
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/real_la_manga_club?id=542",
+    "https://www.thesocialgolfer.com/golf-courses/spain/costa-calida/la-manga/scorecard/la-manga-west-course-yellow-tee-scorecard"
+  ],
+  "notes": "Primary data from the official RFEG club page (REAL LA MANGA CLUB, id=542), which lists the Oeste recorridos with per-hole par, hcp and meters for Blancas/Amarillas/Azules/Rojas, each rated for both genders. Stroke index is identical across all tees. Cross-checked against The Social Golfer's West Course yellow-tee scorecard: pars and stroke indexes match exactly; distances match RFEG Amarillas except hole 14 (TSG 302 vs RFEG 290; TSG also labels the values as yards though they are clearly meters). RFEG taken as authoritative. Note: some aggregator sites describe the West as par 73, but the official RFEG rating card is par 72 (36 out / 36 in). All internal checks pass: SI is a permutation of 1-18, pars sum to 72, and each tee's per-hole meters sum exactly to its RFEG total (5714/5521/5130/4724)."
+}

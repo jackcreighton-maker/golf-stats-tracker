@@ -1,0 +1,247 @@
+{
+  "id": "melia-villaitana-golf-poniente",
+  "name": "Meliá Villaitana Golf — Poniente",
+  "location": "Benidorm, Alicante",
+  "parTotal": 62,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "strokeIndex": 5
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "strokeIndex": 7
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "strokeIndex": 3
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "strokeIndex": 1
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "strokeIndex": 12
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "strokeIndex": 6
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "strokeIndex": 2
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "strokeIndex": 10
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 16
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 61.8,
+      "slope": 109,
+      "distances": [
+        277,
+        180,
+        260,
+        119,
+        254,
+        280,
+        127,
+        182,
+        206,
+        280,
+        134,
+        139,
+        223,
+        182,
+        96,
+        150,
+        327,
+        258
+      ],
+      "totalMeters": 3674
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 60.3,
+      "slope": 105,
+      "distances": [
+        250,
+        156,
+        238,
+        118,
+        227,
+        256,
+        102,
+        154,
+        182,
+        247,
+        116,
+        117,
+        223,
+        156,
+        70,
+        129,
+        312,
+        235
+      ],
+      "totalMeters": 3288
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 60.9,
+      "slope": 104,
+      "distances": [
+        225,
+        116,
+        204,
+        117,
+        197,
+        227,
+        78,
+        127,
+        152,
+        220,
+        105,
+        101,
+        186,
+        129,
+        67,
+        106,
+        292,
+        211
+      ],
+      "totalMeters": 2860
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 56.3,
+      "slope": 64,
+      "distances": [
+        201,
+        89,
+        204,
+        117,
+        197,
+        197,
+        71,
+        102,
+        128,
+        194,
+        95,
+        79,
+        186,
+        109,
+        47,
+        75,
+        276,
+        192
+      ],
+      "totalMeters": 2559
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 58.1,
+      "slope": 89,
+      "distances": [
+        201,
+        89,
+        204,
+        117,
+        197,
+        197,
+        71,
+        102,
+        128,
+        194,
+        95,
+        79,
+        186,
+        109,
+        47,
+        75,
+        276,
+        192
+      ],
+      "totalMeters": 2559
+    }
+  ],
+  "sources": [
+    "https://www.rfeg.es/club/melia_villaitana_golf?id=518",
+    "https://www.meliavillaitanagolf.com/images/about/SC-Poniente-Course.pdf",
+    "https://www.meliavillaitanagolf.com/es/campos-golf-benidorm/137-campo-poniente"
+  ],
+  "notes": "Per-hole par, stroke index, and all four tee distances confirmed identically by RFEG and the club's official scorecard PDF. Layout is 8 par 4s + 10 par 3s (no par 5s), par 31 out / 31 in. Two misprints on the club PDF resolved in favor of RFEG and the PDF's own totals: (1) PDF prints Blue TOTAL as 2680, but its per-hole Blue values sum to 2860 (1443 out + 1417 in), matching RFEG; (2) PDF prints Red hole 9 as 121, but its Red OUT total of 1306 requires 128, matching RFEG. Azules is rated only for women; Rojas is rated for both genders (M 56.3/64, F 58.1/89 — assignment follows RFEG and the expected pattern that the short 2559 m course rates lower for men). Stroke index is the single allocation printed for all tees. Distances sum exactly to published totals; SI is a permutation of 1-18."
+}

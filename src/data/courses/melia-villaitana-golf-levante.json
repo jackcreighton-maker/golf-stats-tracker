@@ -1,0 +1,304 @@
+{
+  "id": "melia-villaitana-golf-levante",
+  "name": "Meliá Villaitana Golf — Levante",
+  "location": "Benidorm, Alicante",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 18
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "strokeIndex": 12
+    },
+    {
+      "number": 4,
+      "par": 5,
+      "strokeIndex": 2
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "strokeIndex": 8
+    },
+    {
+      "number": 8,
+      "par": 5,
+      "strokeIndex": 6
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 11,
+      "par": 5,
+      "strokeIndex": 7
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "strokeIndex": 3
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 16,
+      "par": 5,
+      "strokeIndex": 9
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 11
+    }
+  ],
+  "tees": [
+    {
+      "name": "Negras",
+      "color": "black",
+      "gender": "male",
+      "courseRating": 75.6,
+      "slope": 133,
+      "distances": [
+        390,
+        365,
+        199,
+        480,
+        350,
+        397,
+        218,
+        550,
+        392,
+        400,
+        497,
+        201,
+        346,
+        142,
+        363,
+        519,
+        380,
+        387
+      ],
+      "totalMeters": 6576
+    },
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 73.3,
+      "slope": 135,
+      "distances": [
+        366,
+        349,
+        180,
+        452,
+        339,
+        384,
+        192,
+        526,
+        368,
+        380,
+        479,
+        185,
+        324,
+        124,
+        344,
+        497,
+        359,
+        374
+      ],
+      "totalMeters": 6222
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 70.8,
+      "slope": 135,
+      "distances": [
+        343,
+        325,
+        163,
+        440,
+        307,
+        357,
+        176,
+        496,
+        344,
+        361,
+        446,
+        163,
+        304,
+        102,
+        323,
+        473,
+        309,
+        345
+      ],
+      "totalMeters": 5777
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 67.8,
+      "slope": 129,
+      "distances": [
+        307,
+        295,
+        130,
+        383,
+        275,
+        322,
+        144,
+        446,
+        315,
+        320,
+        415,
+        143,
+        285,
+        85,
+        290,
+        446,
+        272,
+        328
+      ],
+      "totalMeters": 5201
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 73.4,
+      "slope": 131,
+      "distances": [
+        307,
+        295,
+        130,
+        383,
+        275,
+        322,
+        144,
+        446,
+        315,
+        320,
+        415,
+        143,
+        285,
+        85,
+        290,
+        446,
+        272,
+        328
+      ],
+      "totalMeters": 5201
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 65.1,
+      "slope": 115,
+      "distances": [
+        281,
+        295,
+        103,
+        383,
+        275,
+        276,
+        104,
+        405,
+        281,
+        291,
+        383,
+        124,
+        236,
+        85,
+        265,
+        374,
+        272,
+        254
+      ],
+      "totalMeters": 4687
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 70,
+      "slope": 123,
+      "distances": [
+        281,
+        295,
+        103,
+        383,
+        275,
+        276,
+        104,
+        405,
+        281,
+        291,
+        383,
+        124,
+        236,
+        85,
+        265,
+        374,
+        272,
+        254
+      ],
+      "totalMeters": 4687
+    }
+  ],
+  "sources": [
+    "https://www.rfeg.es/club/melia_villaitana_golf?id=518",
+    "https://www.golf4ualicante.com/villaitana-levante/",
+    "https://www.golfshake.com/course/view/23336/Villaitana_Golf_Formerly_Real_de_Faula.html",
+    "https://www.meliavillaitanagolf.com/es/campos-golf-benidorm/138-campo-levante"
+  ],
+  "notes": "Primary data from RFEG official club page (all recorridos with per-hole par, hcp, meters, Vc/Vs). Cross-checked against golf4ualicante.com hole-by-hole review (white tees 6222 m total; holes 3, 7, 18 match exactly; hole 1 listed as 368 m vs RFEG 366 m — 2 m discrepancy only) and golfshake snippets (hole 4 par 5 452 m SI 2; hole 11 par 5 479 m SI 7 — both match). Stroke index allocation is identical across tees on the RFEG card. Pars sum to 72; SIs are a permutation of 1-18; each tee's per-hole meters sum exactly to its published total. Note: RFEG publishes Blancas slope (135) higher than Negras (133) for men — reported as published. Amarillas mapped to color \"gold\" (yellow not in allowed palette). Azules and Rojas are rated for both genders; duplicate entries emitted with identical distances."
+}

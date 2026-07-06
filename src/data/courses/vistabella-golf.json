@@ -1,0 +1,334 @@
+{
+  "id": "vistabella-golf",
+  "name": "Vistabella Golf",
+  "location": "Orihuela (Entrenaranjos/Jacarilla), Alicante",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 3,
+      "par": 5,
+      "strokeIndex": 11
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 5,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "strokeIndex": 9
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 10,
+      "par": 5,
+      "strokeIndex": 2
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "strokeIndex": 6
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 18
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 14,
+      "par": 5,
+      "strokeIndex": 4
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "strokeIndex": 8
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 10
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 73,
+      "slope": 144,
+      "distances": [
+        300,
+        160,
+        491,
+        332,
+        489,
+        419,
+        186,
+        384,
+        371,
+        504,
+        170,
+        310,
+        316,
+        506,
+        184,
+        365,
+        278,
+        368
+      ],
+      "totalMeters": 6133
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 79.7,
+      "slope": 152,
+      "distances": [
+        300,
+        160,
+        491,
+        332,
+        489,
+        419,
+        186,
+        384,
+        371,
+        504,
+        170,
+        310,
+        316,
+        506,
+        184,
+        365,
+        278,
+        368
+      ],
+      "totalMeters": 6133
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 71,
+      "slope": 141,
+      "distances": [
+        280,
+        143,
+        472,
+        296,
+        462,
+        388,
+        164,
+        357,
+        356,
+        484,
+        160,
+        288,
+        297,
+        485,
+        167,
+        332,
+        272,
+        343
+      ],
+      "totalMeters": 5746
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 77.3,
+      "slope": 147,
+      "distances": [
+        280,
+        143,
+        472,
+        296,
+        462,
+        388,
+        164,
+        357,
+        356,
+        484,
+        160,
+        288,
+        297,
+        485,
+        167,
+        332,
+        272,
+        343
+      ],
+      "totalMeters": 5746
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 68.8,
+      "slope": 136,
+      "distances": [
+        260,
+        127,
+        443,
+        240,
+        443,
+        307,
+        142,
+        335,
+        343,
+        459,
+        143,
+        261,
+        271,
+        467,
+        139,
+        312,
+        266,
+        318
+      ],
+      "totalMeters": 5276
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 74.5,
+      "slope": 141,
+      "distances": [
+        260,
+        127,
+        443,
+        240,
+        443,
+        307,
+        142,
+        335,
+        343,
+        459,
+        143,
+        261,
+        271,
+        467,
+        139,
+        312,
+        266,
+        318
+      ],
+      "totalMeters": 5276
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.3,
+      "slope": 132,
+      "distances": [
+        235,
+        109,
+        398,
+        204,
+        402,
+        274,
+        119,
+        309,
+        325,
+        438,
+        125,
+        236,
+        254,
+        441,
+        118,
+        239,
+        255,
+        290
+      ],
+      "totalMeters": 4771
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 71.3,
+      "slope": 136,
+      "distances": [
+        235,
+        109,
+        398,
+        204,
+        402,
+        274,
+        119,
+        309,
+        325,
+        438,
+        125,
+        236,
+        254,
+        441,
+        118,
+        239,
+        255,
+        290
+      ],
+      "totalMeters": 4771
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/club/vistabella_golf_club?id=525",
+    "https://teigur.club/wp-content/uploads/2018/07/Skorkort_Vistabella.pdf",
+    "https://vistabellagolf.com/en/golf-course/",
+    "https://vistabellagolf.com/wp-content/uploads/2023/02/LV25-3-VISTABELLA-GOLF-HOMBRES.pdf",
+    "https://vistabellagolf.com/wp-content/uploads/2023/02/LV25-3-VISTABELLA-GOLF-MUJERES.pdf",
+    "https://www.golfshake.com/course/view/67809/Vistabella_Golf_Course.html"
+  ],
+  "notes": "Data cross-verified across three independent sources that agree exactly: (1) RFEG club page (recorrido LV25-3, valid from 03/09/2022) with per-hole par/hcp/meters and Vc/Vs per tee and gender; (2) the club's official printed scorecard (tarjeta) PDF, which matches every per-hole distance, par and hcp; (3) the club's official RFEG WHS equivalence-table PDFs (men and women), which confirm all CR/slope values. Golfshake's yardage totals (6706/6284/5767/5217 yd) convert to the same meter totals, though its SSS/slope values are outdated pre-2022 ratings. Internal consistency verified: pars sum 36+36=72, stroke indexes 1-18 each used once, each tee's 18 distances sum exactly to the published total. All tee distances are measured to the center of the green. The stroke-index allocation is the same on all tees and both genders per RFEG. RFEG also lists a separate 'Naranjas' (orange) rated recorrido: par 58 over 18 holes (a 9-hole short loop of 1337 m, par 29, played twice - this is the La Cala par-3/short course), rated CR 55.4/Slope 73 (men) and 57.4/83 (women); it is excluded from the tees array because its hole pars (3,3,4,3,4,3,3,3,3) differ from the main 18-hole card and the schema supports only one hole layout. Amarillas (yellow) tees are mapped to color 'gold' per the allowed color list."
+}

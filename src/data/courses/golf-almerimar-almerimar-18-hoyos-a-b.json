@@ -1,0 +1,332 @@
+{
+  "id": "golf-almerimar-almerimar-18-hoyos-a-b",
+  "name": "Golf Almerimar (Almerimar 18 Hoyos A+B)",
+  "location": "El Ejido (Almerimar), Almería",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 5,
+      "strokeIndex": 5
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "strokeIndex": 13
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 17
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "strokeIndex": 7
+    },
+    {
+      "number": 9,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 11,
+      "par": 5,
+      "strokeIndex": 10
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "strokeIndex": 8
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 14,
+      "par": 5,
+      "strokeIndex": 6
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 2
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 74,
+      "slope": 136,
+      "distances": [
+        505,
+        422,
+        188,
+        358,
+        355,
+        358,
+        330,
+        172,
+        508,
+        347,
+        455,
+        172,
+        396,
+        511,
+        326,
+        344,
+        140,
+        388
+      ],
+      "totalMeters": 6275
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 73.1,
+      "slope": 134,
+      "distances": [
+        480,
+        408,
+        183,
+        349,
+        348,
+        345,
+        325,
+        154,
+        500,
+        342,
+        450,
+        164,
+        389,
+        505,
+        326,
+        338,
+        133,
+        379
+      ],
+      "totalMeters": 6118
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 69.6,
+      "slope": 131,
+      "distances": [
+        441,
+        356,
+        155,
+        336,
+        315,
+        317,
+        299,
+        124,
+        482,
+        315,
+        434,
+        139,
+        352,
+        480,
+        282,
+        311,
+        115,
+        363
+      ],
+      "totalMeters": 5616
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 75.5,
+      "slope": 136,
+      "distances": [
+        441,
+        356,
+        155,
+        336,
+        315,
+        317,
+        299,
+        124,
+        482,
+        315,
+        434,
+        139,
+        352,
+        480,
+        282,
+        311,
+        115,
+        363
+      ],
+      "totalMeters": 5616
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 68.2,
+      "slope": 129,
+      "distances": [
+        418,
+        343,
+        143,
+        318,
+        293,
+        303,
+        284,
+        112,
+        464,
+        307,
+        421,
+        131,
+        335,
+        460,
+        262,
+        295,
+        108,
+        348
+      ],
+      "totalMeters": 5345
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 74,
+      "slope": 131,
+      "distances": [
+        418,
+        343,
+        143,
+        318,
+        293,
+        303,
+        284,
+        112,
+        464,
+        307,
+        421,
+        131,
+        335,
+        460,
+        262,
+        295,
+        108,
+        348
+      ],
+      "totalMeters": 5345
+    },
+    {
+      "name": "Naranjas",
+      "color": "gray",
+      "gender": "male",
+      "courseRating": 65.3,
+      "slope": 116,
+      "distances": [
+        371,
+        289,
+        134,
+        306,
+        256,
+        288,
+        267,
+        89,
+        449,
+        279,
+        393,
+        106,
+        266,
+        415,
+        212,
+        248,
+        100,
+        284
+      ],
+      "totalMeters": 4752
+    },
+    {
+      "name": "Naranjas (W)",
+      "color": "gray",
+      "gender": "female",
+      "courseRating": 70.2,
+      "slope": 120,
+      "distances": [
+        371,
+        289,
+        134,
+        306,
+        256,
+        288,
+        267,
+        89,
+        449,
+        279,
+        393,
+        106,
+        266,
+        415,
+        212,
+        248,
+        100,
+        284
+      ],
+      "totalMeters": 4752
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/golf_almerimar?id=309",
+    "https://18birdies.com/golf-courses/club/c9132710-86ac-11e4-8c28-020000005b00/golf-almerimar",
+    "https://portal.golfandalucia.com/es/club/AM59",
+    "https://www.hole19golf.com/courses/golf-almerimar"
+  ],
+  "notes": "Data is for the main rated recorrido \"Almerimar 18 Hoyos A+B\" from the official RFEG club page (Gary Player design, 1976; federative code AM59). The 27-hole facility has other rated combinations (Rojo+Azul, Blanco+Rojo, Azul+Blanco, C+C, and an 18-hole P&P) with different cards; this is the championship configuration. Cross-check: 18Birdies matches RFEG exactly on par, stroke index, and 16/18 white-tee distances (18Birdies shows hole 3 = 198m and hole 8 = 183m vs RFEG 188m/172m — RFEG taken as authoritative). Internal consistency verified: pars sum to 72 (36/36), stroke indexes are a permutation of 1-18 (odd on front nine, even on back), and every tee's 18 distances sum exactly to its published total. Blancas Vc shown as 74 on RFEG (one decimal not displayed). Blancas and Amarillas are rated for men only on RFEG; Azules, Rojas and Naranjas are rated for both genders. \"Naranjas\" (orange) has no matching allowed color, mapped to gray. Hole19's card is for the different Azul+Blanco combination and was not used. An older Andalusian federation summary citing 6,095m/par 73 for whites appears to predate the current rating and does not match the live RFEG card."
+}

@@ -1,0 +1,276 @@
+{
+  "id": "villamartin-golf-club-de-golf-villamartin",
+  "name": "Villamartín Golf (Club de Golf Villamartín)",
+  "location": "Orihuela Costa, Alicante",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 5,
+      "strokeIndex": 4
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 5,
+      "par": 5,
+      "strokeIndex": 2
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "strokeIndex": 10
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 11,
+      "par": 5,
+      "strokeIndex": 17
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "strokeIndex": 15
+    },
+    {
+      "number": 14,
+      "par": 5,
+      "strokeIndex": 1
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 13
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 5
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 72.2,
+      "slope": 140,
+      "distances": [
+        475,
+        355,
+        345,
+        336,
+        453,
+        199,
+        313,
+        325,
+        145,
+        314,
+        441,
+        382,
+        178,
+        478,
+        313,
+        367,
+        204,
+        382
+      ],
+      "totalMeters": 6005
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 71.5,
+      "slope": 139,
+      "distances": [
+        470,
+        345,
+        340,
+        331,
+        448,
+        188,
+        308,
+        320,
+        140,
+        309,
+        437,
+        377,
+        173,
+        473,
+        308,
+        362,
+        175,
+        364
+      ],
+      "totalMeters": 5868
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 69.6,
+      "slope": 133,
+      "distances": [
+        444,
+        328,
+        318,
+        301,
+        426,
+        175,
+        298,
+        304,
+        120,
+        303,
+        410,
+        359,
+        154,
+        443,
+        284,
+        337,
+        148,
+        347
+      ],
+      "totalMeters": 5499
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 75.7,
+      "slope": 138,
+      "distances": [
+        444,
+        328,
+        318,
+        301,
+        426,
+        175,
+        298,
+        304,
+        120,
+        303,
+        410,
+        359,
+        154,
+        443,
+        284,
+        337,
+        148,
+        347
+      ],
+      "totalMeters": 5499
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.6,
+      "slope": 122,
+      "distances": [
+        402,
+        310,
+        293,
+        280,
+        399,
+        155,
+        280,
+        275,
+        107,
+        269,
+        368,
+        310,
+        139,
+        400,
+        266,
+        293,
+        137,
+        320
+      ],
+      "totalMeters": 5003
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 72.5,
+      "slope": 131,
+      "distances": [
+        402,
+        310,
+        293,
+        280,
+        399,
+        155,
+        280,
+        275,
+        107,
+        269,
+        368,
+        310,
+        139,
+        400,
+        266,
+        293,
+        137,
+        320
+      ],
+      "totalMeters": 5003
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/club/club_de_golf_villamartin?id=530",
+    "https://www.golfingholiday.com/golf-course/villamartin/course-map-score-card/",
+    "https://www.golfshake.com/course/view/23368/Campo_de_Golf_Villamartin.html",
+    "https://www.villamartingolfclub.com/the-golf-course/course-information"
+  ],
+  "notes": "Primary data from the official RFEG club page (rated recorridos with per-hole par, hcp, meters, Vc/Vs). Per-hole meters and SI independently confirmed by golfingholiday.com's scorecard; tee totals confirmed by golfshake.com (its yardages 6567/6417/6014/5471 yd convert exactly to RFEG's 6005/5868/5499/5003 m). Consistency verified: pars sum 36+36=72, stroke indexes are a permutation of 1-18, each tee's per-hole meters sum exactly to its total. RFEG rates Blancas and Amarillas for men only; Azules and Rojas for both genders (two entries each). Discrepancies: the club's own website quotes older totals (white 6132 m, yellow 6037 m, red 5259 m) that predate the current RFEG rating; golfshake lists slightly different slopes for white (136 vs RFEG 140) and blue (130 vs RFEG 133), also likely outdated. Golfingholiday shows SI 16 for hole 16 (apparent typo duplicating hole 7); RFEG's SI 7 used. Stroke index allocation is identical across all tees on the RFEG card."
+}

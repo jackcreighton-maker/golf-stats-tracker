@@ -1,0 +1,334 @@
+{
+  "id": "real-club-de-golf-campoamor",
+  "name": "Real Club de Golf Campoamor",
+  "location": "Dehesa de Campoamor, Orihuela Costa, Alicante",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 5,
+      "strokeIndex": 15
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "strokeIndex": 9
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 7,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "strokeIndex": 12
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 18
+    },
+    {
+      "number": 12,
+      "par": 5,
+      "strokeIndex": 2
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "strokeIndex": 14
+    },
+    {
+      "number": 16,
+      "par": 5,
+      "strokeIndex": 10
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 18,
+      "par": 5,
+      "strokeIndex": 4
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 74.3,
+      "slope": 142,
+      "distances": [
+        491,
+        340,
+        361,
+        201,
+        404,
+        160,
+        514,
+        353,
+        407,
+        200,
+        304,
+        490,
+        392,
+        374,
+        197,
+        453,
+        161,
+        475
+      ],
+      "totalMeters": 6277
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 81,
+      "slope": 145,
+      "distances": [
+        491,
+        340,
+        361,
+        201,
+        404,
+        160,
+        514,
+        353,
+        407,
+        200,
+        304,
+        490,
+        392,
+        374,
+        197,
+        453,
+        161,
+        475
+      ],
+      "totalMeters": 6277
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 73.7,
+      "slope": 139,
+      "distances": [
+        446,
+        334,
+        356,
+        195,
+        398,
+        157,
+        505,
+        348,
+        400,
+        195,
+        300,
+        485,
+        382,
+        364,
+        192,
+        451,
+        158,
+        468
+      ],
+      "totalMeters": 6134
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 80.1,
+      "slope": 144,
+      "distances": [
+        446,
+        334,
+        356,
+        195,
+        398,
+        157,
+        505,
+        348,
+        400,
+        195,
+        300,
+        485,
+        382,
+        364,
+        192,
+        451,
+        158,
+        468
+      ],
+      "totalMeters": 6134
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 70.3,
+      "slope": 138,
+      "distances": [
+        431,
+        315,
+        321,
+        174,
+        320,
+        141,
+        403,
+        310,
+        322,
+        175,
+        244,
+        467,
+        372,
+        354,
+        160,
+        414,
+        152,
+        452
+      ],
+      "totalMeters": 5527
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 76,
+      "slope": 136,
+      "distances": [
+        431,
+        315,
+        321,
+        174,
+        320,
+        141,
+        403,
+        310,
+        322,
+        175,
+        244,
+        467,
+        372,
+        354,
+        160,
+        414,
+        152,
+        452
+      ],
+      "totalMeters": 5527
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 68.6,
+      "slope": 131,
+      "distances": [
+        423,
+        273,
+        306,
+        131,
+        316,
+        133,
+        400,
+        292,
+        318,
+        161,
+        240,
+        394,
+        342,
+        351,
+        155,
+        400,
+        147,
+        385
+      ],
+      "totalMeters": 5167
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 73.7,
+      "slope": 132,
+      "distances": [
+        423,
+        273,
+        306,
+        131,
+        316,
+        133,
+        400,
+        292,
+        318,
+        161,
+        240,
+        394,
+        342,
+        351,
+        155,
+        400,
+        147,
+        385
+      ],
+      "totalMeters": 5167
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/club_de_golf_campoamor?id=532",
+    "https://lomasdecampoamor.es/es/hoyo-1",
+    "https://lomasdecampoamor.es/es/hoyo-9",
+    "https://lomasdecampoamor.es/es/hoyo-12",
+    "https://lomasdecampoamor.es/es/hoyo-18",
+    "https://lomasdecampoamor.es/es/golf-club"
+  ],
+  "notes": "Primary source: RFEG club page (CLUB DE GOLF CAMPOAMOR, id=532), which publishes all 8 rated recorridos (CAMPOAMOR - BLANCAS/AMARILLAS/AZULES/ROJAS, each rated M and F) with per-hole Hdcp, Par and Metros. Cross-checked against the club's official website (lomasdecampoamor.es, Real Club de Golf Campoamor Resort) hole-by-hole pages, which match RFEG exactly on par, handicap and all four tee distances for every hole verified (1, 9, 12, 18). Stroke index allocation is identical on every RFEG recorrido (men and women), so a single SI set applies. Internal consistency verified: pars sum to 72 (36 out / 36 in), SIs are a permutation of 1-18, and each tee's 18 distances sum exactly to the published totals (6277/6134/5527/5167 m). Minor discrepancy: golfshake.com lists rough summary yardages (e.g. White 6940 yd ~ 6346 m) that do not match the official 6277 m; RFEG/club data was preferred. RFEG lists founding year 1989 (club opened 1988), designer Carmelo Gracia Caselles."
+}

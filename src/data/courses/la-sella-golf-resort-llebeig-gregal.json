@@ -1,0 +1,331 @@
+{
+  "id": "la-sella-golf-resort-llebeig-gregal",
+  "name": "La Sella Golf Resort (Llebeig + Gregal)",
+  "location": "Jesús Pobre (Dénia), Alicante",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 17
+    },
+    {
+      "number": 3,
+      "par": 5,
+      "strokeIndex": 5
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "strokeIndex": 7
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "strokeIndex": 9
+    },
+    {
+      "number": 9,
+      "par": 5,
+      "strokeIndex": 13
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 11,
+      "par": 5,
+      "strokeIndex": 2
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "strokeIndex": 14
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 18,
+      "par": 5,
+      "strokeIndex": 10
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 74.2,
+      "slope": 138,
+      "distances": [
+        339,
+        316,
+        506,
+        400,
+        184,
+        305,
+        439,
+        203,
+        475,
+        386,
+        529,
+        281,
+        169,
+        314,
+        125,
+        416,
+        375,
+        470
+      ],
+      "totalMeters": 6232
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 81,
+      "slope": 146,
+      "distances": [
+        339,
+        316,
+        506,
+        400,
+        184,
+        305,
+        439,
+        203,
+        475,
+        386,
+        529,
+        281,
+        169,
+        314,
+        125,
+        416,
+        375,
+        470
+      ],
+      "totalMeters": 6232
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 72.7,
+      "slope": 136,
+      "distances": [
+        339,
+        299,
+        487,
+        377,
+        171,
+        287,
+        418,
+        178,
+        460,
+        380,
+        524,
+        263,
+        162,
+        307,
+        114,
+        408,
+        361,
+        429
+      ],
+      "totalMeters": 5964
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 79.3,
+      "slope": 143,
+      "distances": [
+        339,
+        299,
+        487,
+        377,
+        171,
+        287,
+        418,
+        178,
+        460,
+        380,
+        524,
+        263,
+        162,
+        307,
+        114,
+        408,
+        361,
+        429
+      ],
+      "totalMeters": 5964
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 69,
+      "slope": 127,
+      "distances": [
+        297,
+        276,
+        442,
+        330,
+        151,
+        250,
+        362,
+        144,
+        399,
+        341,
+        485,
+        234,
+        133,
+        269,
+        97,
+        343,
+        313,
+        361
+      ],
+      "totalMeters": 5227
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 74.7,
+      "slope": 138,
+      "distances": [
+        297,
+        276,
+        442,
+        330,
+        151,
+        250,
+        362,
+        144,
+        399,
+        341,
+        485,
+        234,
+        133,
+        269,
+        97,
+        343,
+        313,
+        361
+      ],
+      "totalMeters": 5227
+    },
+    {
+      "name": "Naranjas",
+      "color": "gray",
+      "gender": "male",
+      "courseRating": 66,
+      "slope": 120,
+      "distances": [
+        258,
+        276,
+        402,
+        293,
+        119,
+        250,
+        292,
+        117,
+        362,
+        313,
+        456,
+        183,
+        108,
+        232,
+        92,
+        311,
+        261,
+        356
+      ],
+      "totalMeters": 4681
+    },
+    {
+      "name": "Naranjas (W)",
+      "color": "gray",
+      "gender": "female",
+      "courseRating": 71.4,
+      "slope": 126,
+      "distances": [
+        258,
+        276,
+        402,
+        293,
+        119,
+        250,
+        292,
+        117,
+        362,
+        313,
+        456,
+        183,
+        108,
+        232,
+        92,
+        311,
+        261,
+        356
+      ],
+      "totalMeters": 4681
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/la_sella_golf_(campo).html?id=527",
+    "https://www.mscorecard.com/mscorecard/showcourse.php?cid=1216763022540",
+    "https://www.golfify.io/courses/la-sella-golf-resort-spa-gre-gal-mestral"
+  ],
+  "notes": "Data is for the classic Llebeig+Gregal 18 (RFEG recorrido 'CAMPO LA SELLA - Llebeig+Gregal'), the combination the RFEG lists first. Per-hole pars and meters for Blancas/Amarillas/Rojas match mScorecard exactly (totals 6232/5964/5227). Naranjas (orange) tees have no allowed color match, mapped to gray. RFEG also rates two other combinations, all par 72: Llebeig+Mestral (Blancas 6225m, M 74.0/137, F 80.8/145; Amarillas 5798m, M 71.8/133, F 78.0/139; Rojas 5152m, M 68.8/122, F 73.9/135; Naranjas 4617m, M 65.8/113, F 70.7/125; Mestral back-nine pars 3-5-4-4-5-3-4-5-3, SI 4,8,16,2,14,18,10,6,12) and Gregal+Mestral (Blancas 6123m, M 73.2/133, F 79.8/147; Amarillas 5730m, M 71.1/129, F 77.3/144; Rojas 5077m, M 68.0/124, F 73.2/132; Naranjas 4560m, M 65.0/114, F 69.9/123; Gregal-as-front SI 7,1,15,13,11,17,3,5,9). A special 'R&A Student Tour Series' rating also exists (Blancas M 6188m 74.0/137; Rojas F 5378m 75.9/137) using mixed tee positions. Minor discrepancy: golfify.io shows Gregal front-nine SI as even numbers (8,2,16...) for the Gregal+Mestral combo, whereas RFEG's official allocation gives Gregal odd SI (7,1,15...) when it is the front nine; RFEG taken as authoritative. Stroke index shown is identical for all tees/genders on the RFEG card."
+}

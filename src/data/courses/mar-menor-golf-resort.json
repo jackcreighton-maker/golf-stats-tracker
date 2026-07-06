@@ -1,0 +1,274 @@
+{
+  "id": "mar-menor-golf-resort",
+  "name": "Mar Menor Golf Resort",
+  "location": "Torre-Pacheco, Murcia",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 4,
+      "par": 5,
+      "strokeIndex": 7
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 6,
+      "par": 5,
+      "strokeIndex": 9
+    },
+    {
+      "number": 7,
+      "par": 5,
+      "strokeIndex": 15
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "strokeIndex": 3
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 10,
+      "par": 5,
+      "strokeIndex": 6
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "strokeIndex": 12
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 14
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 72.6,
+      "slope": 140,
+      "distances": [
+        319,
+        153,
+        418,
+        457,
+        325,
+        495,
+        474,
+        205,
+        429,
+        493,
+        341,
+        294,
+        365,
+        179,
+        325,
+        386,
+        147,
+        348
+      ],
+      "totalMeters": 6153
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 80.1,
+      "slope": 138,
+      "distances": [
+        319,
+        153,
+        418,
+        457,
+        325,
+        495,
+        474,
+        205,
+        429,
+        493,
+        341,
+        294,
+        365,
+        179,
+        325,
+        386,
+        147,
+        348
+      ],
+      "totalMeters": 6153
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 70.7,
+      "slope": 136,
+      "distances": [
+        317,
+        151,
+        416,
+        455,
+        323,
+        489,
+        426,
+        185,
+        383,
+        456,
+        317,
+        288,
+        323,
+        154,
+        296,
+        349,
+        140,
+        345
+      ],
+      "totalMeters": 5813
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 77.6,
+      "slope": 132,
+      "distances": [
+        317,
+        151,
+        416,
+        455,
+        323,
+        489,
+        426,
+        185,
+        383,
+        456,
+        317,
+        288,
+        323,
+        154,
+        296,
+        349,
+        140,
+        345
+      ],
+      "totalMeters": 5813
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.6,
+      "slope": 115,
+      "distances": [
+        304,
+        128,
+        353,
+        420,
+        213,
+        419,
+        385,
+        150,
+        328,
+        389,
+        261,
+        238,
+        285,
+        127,
+        261,
+        294,
+        126,
+        326
+      ],
+      "totalMeters": 5007
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 71.8,
+      "slope": 129,
+      "distances": [
+        304,
+        128,
+        353,
+        420,
+        213,
+        419,
+        385,
+        150,
+        328,
+        389,
+        261,
+        238,
+        285,
+        127,
+        261,
+        294,
+        126,
+        326
+      ],
+      "totalMeters": 5007
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/mar_menor_golf.html?id=547",
+    "https://jacknicklausgolftrail.com/scorecards/mar-menor.pdf"
+  ],
+  "notes": "Primary data parsed directly from the RFEG club page HTML (all six rated recorridos: Blancas/Amarillas/Rojas, each rated M and F with identical distances). Internal consistency verified: pars sum to 72 (out 37 / in 35), stroke indexes are a permutation of 1-18 (odd SI on front nine, even on back), and each tee's 18 distances sum exactly to its published total (6153/5813/5007 m). Stroke index is identical on all tees. Cross-checked against the official club scorecard PDF (Global Golf / Jack Nicklaus Golf Trail card, ca. 2012): par, SI and Blancas distances match exactly; two per-hole discrepancies vs the older card - Amarillas hole 6: 489 m on RFEG vs 477 m on old card, and Rojas hole 5: 213 m on RFEG vs 307 m on old card (old card also shows older ratings Blancas 72.0/130, Amarillas 70.1/128, Rojas 71.7/120). RFEG current figures used as authoritative. Course: front 9 by Dave Thomas, back 9 by Nicklaus Design; GNK Golf / UGolf managed, ex-Polaris World."
+}

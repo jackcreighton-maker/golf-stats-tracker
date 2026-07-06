@@ -1,0 +1,387 @@
+{
+  "id": "roda-golf-beach-resort",
+  "name": "Roda Golf & Beach Resort",
+  "location": "San Javier (Roda, near Los Alcázares), Murcia",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 5,
+      "strokeIndex": 9
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "strokeIndex": 11
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 5,
+      "par": 5,
+      "strokeIndex": 17
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "strokeIndex": 7
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 10,
+      "par": 5,
+      "strokeIndex": 14
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "strokeIndex": 6
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 18
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 18,
+      "par": 5,
+      "strokeIndex": 8
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 72.5,
+      "slope": 133,
+      "distances": [
+        500,
+        204,
+        405,
+        400,
+        435,
+        366,
+        169,
+        323,
+        392,
+        437,
+        174,
+        318,
+        151,
+        317,
+        296,
+        348,
+        381,
+        494
+      ],
+      "totalMeters": 6110
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 79.7,
+      "slope": 135,
+      "distances": [
+        500,
+        204,
+        405,
+        400,
+        435,
+        366,
+        169,
+        323,
+        392,
+        437,
+        174,
+        318,
+        151,
+        317,
+        296,
+        348,
+        381,
+        494
+      ],
+      "totalMeters": 6110
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 70.4,
+      "slope": 131,
+      "distances": [
+        468,
+        178,
+        383,
+        375,
+        417,
+        356,
+        148,
+        301,
+        368,
+        425,
+        147,
+        305,
+        139,
+        300,
+        278,
+        332,
+        363,
+        457
+      ],
+      "totalMeters": 5740
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 77,
+      "slope": 132,
+      "distances": [
+        468,
+        178,
+        383,
+        375,
+        417,
+        356,
+        148,
+        301,
+        368,
+        425,
+        147,
+        305,
+        139,
+        300,
+        278,
+        332,
+        363,
+        457
+      ],
+      "totalMeters": 5740
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 68.6,
+      "slope": 126,
+      "distances": [
+        443,
+        148,
+        370,
+        334,
+        404,
+        343,
+        134,
+        293,
+        350,
+        411,
+        140,
+        288,
+        118,
+        277,
+        271,
+        325,
+        323,
+        434
+      ],
+      "totalMeters": 5406
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 74.9,
+      "slope": 132,
+      "distances": [
+        443,
+        148,
+        370,
+        334,
+        404,
+        343,
+        134,
+        293,
+        350,
+        411,
+        140,
+        288,
+        118,
+        277,
+        271,
+        325,
+        323,
+        434
+      ],
+      "totalMeters": 5406
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.2,
+      "slope": 111,
+      "distances": [
+        400,
+        119,
+        343,
+        276,
+        371,
+        343,
+        116,
+        276,
+        274,
+        395,
+        123,
+        271,
+        100,
+        257,
+        271,
+        318,
+        283,
+        386
+      ],
+      "totalMeters": 4922
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 71.7,
+      "slope": 130,
+      "distances": [
+        400,
+        119,
+        343,
+        276,
+        371,
+        343,
+        116,
+        276,
+        274,
+        395,
+        123,
+        271,
+        100,
+        257,
+        271,
+        318,
+        283,
+        386
+      ],
+      "totalMeters": 4922
+    },
+    {
+      "name": "Naranjas",
+      "color": "gray",
+      "gender": "male",
+      "courseRating": 63.7,
+      "slope": 105,
+      "distances": [
+        385,
+        119,
+        292,
+        276,
+        321,
+        288,
+        75,
+        273,
+        274,
+        357,
+        104,
+        246,
+        100,
+        212,
+        235,
+        264,
+        239,
+        383
+      ],
+      "totalMeters": 4443
+    },
+    {
+      "name": "Naranjas (W)",
+      "color": "gray",
+      "gender": "female",
+      "courseRating": 68.5,
+      "slope": 120,
+      "distances": [
+        385,
+        119,
+        292,
+        276,
+        321,
+        288,
+        75,
+        273,
+        274,
+        357,
+        104,
+        246,
+        100,
+        212,
+        235,
+        264,
+        239,
+        383
+      ],
+      "totalMeters": 4443
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/club/roda_golf_course?id=549",
+    "https://rfeg.es/club/roda_golf_course.html?id=549",
+    "https://www.rodagolf.com/wp-content/uploads/2024/01/ScoreCard-Tarjeta-de-Recorrido-RODA-GOLF-BEACH-RESORT.pdf"
+  ],
+  "notes": "Per-hole par, stroke index and all five tee distances extracted directly from the club's official 2023 scorecard PDF (raw text parse) and matched exactly against the RFEG club page. Ratings (Vc/Vs) taken from RFEG and confirmed on two separate fetches. Internal checks pass: pars sum to 72 (36/36), SI is a permutation of 1-18 (odd front nine, even back nine, same allocation on the women's card), and each tee's distances sum exactly to its published total. Naranjas ('orange') mapped to 'gray' because orange is not in the allowed color set. Third-party cross-check sites (golfify.io, mscorecard.com) returned HTTP 403 and could not be verified; some older third-party listings quote 73.2/136, which appears to be a superseded yards-based rating. All distances are meters to the centre of the green per the card's local rules. Design: Dave Thomas, opened 2006."
+}

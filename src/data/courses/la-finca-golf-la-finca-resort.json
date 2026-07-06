@@ -1,0 +1,333 @@
+{
+  "id": "la-finca-golf-la-finca-resort",
+  "name": "La Finca Golf (La Finca Resort)",
+  "location": "Algorfa, Alicante",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 5,
+      "strokeIndex": 11
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "strokeIndex": 9
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 5,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "strokeIndex": 7
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 9,
+      "par": 5,
+      "strokeIndex": 17
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 11,
+      "par": 5,
+      "strokeIndex": 16
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "strokeIndex": 12
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 4
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 74.6,
+      "slope": 139,
+      "distances": [
+        525,
+        368,
+        168,
+        362,
+        535,
+        179,
+        434,
+        338,
+        474,
+        305,
+        490,
+        375,
+        167,
+        396,
+        366,
+        162,
+        323,
+        427
+      ],
+      "totalMeters": 6394
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 72.7,
+      "slope": 133,
+      "distances": [
+        499,
+        358,
+        157,
+        344,
+        514,
+        160,
+        404,
+        305,
+        454,
+        299,
+        470,
+        344,
+        148,
+        372,
+        340,
+        157,
+        313,
+        394
+      ],
+      "totalMeters": 6032
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 70.9,
+      "slope": 124,
+      "distances": [
+        487,
+        334,
+        145,
+        333,
+        507,
+        153,
+        352,
+        288,
+        444,
+        282,
+        465,
+        340,
+        128,
+        354,
+        333,
+        119,
+        307,
+        366
+      ],
+      "totalMeters": 5737
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 77.5,
+      "slope": 140,
+      "distances": [
+        487,
+        334,
+        145,
+        333,
+        507,
+        153,
+        352,
+        288,
+        444,
+        282,
+        465,
+        340,
+        128,
+        354,
+        333,
+        119,
+        307,
+        366
+      ],
+      "totalMeters": 5737
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 69.1,
+      "slope": 123,
+      "distances": [
+        484,
+        298,
+        125,
+        315,
+        479,
+        139,
+        349,
+        269,
+        430,
+        264,
+        437,
+        300,
+        118,
+        330,
+        315,
+        113,
+        289,
+        357
+      ],
+      "totalMeters": 5411
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 75.3,
+      "slope": 139,
+      "distances": [
+        484,
+        298,
+        125,
+        315,
+        479,
+        139,
+        349,
+        269,
+        430,
+        264,
+        437,
+        300,
+        118,
+        330,
+        315,
+        113,
+        289,
+        357
+      ],
+      "totalMeters": 5411
+    },
+    {
+      "name": "Naranjas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 65,
+      "slope": 118,
+      "distances": [
+        430,
+        292,
+        121,
+        253,
+        435,
+        101,
+        268,
+        265,
+        388,
+        220,
+        372,
+        273,
+        108,
+        269,
+        270,
+        108,
+        264,
+        304
+      ],
+      "totalMeters": 4741
+    },
+    {
+      "name": "Naranjas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 70.5,
+      "slope": 130,
+      "distances": [
+        430,
+        292,
+        121,
+        253,
+        435,
+        101,
+        268,
+        265,
+        388,
+        220,
+        372,
+        273,
+        108,
+        269,
+        270,
+        108,
+        264,
+        304
+      ],
+      "totalMeters": 4741
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/club/la_finca_algorfa_golf?id=536",
+    "https://www.mscorecard.com/mscorecard/showcourse.php?cid=1202572522789",
+    "https://www.hole19golf.com/courses/la-finca-resort",
+    "https://www.golfshake.com/course/view/23491/Golf_La_Finca.html",
+    "https://www.golfingholiday.com/golf-course/la-finca/course-map-score-card/"
+  ],
+  "notes": "All per-hole data taken verbatim from the RFEG club page (rated recorridos 'FINCA ALGORFA - La Finca'), which lists Hdcp, Par and Metros per hole for every tee; per-hole meters and pars cross-check exactly with mScorecard and Hole19 (Azules card), and totals/ratings cross-check with Golfshake. Stroke index (Hdcp) is identical for all tees and both genders per RFEG: front 9 odd numbers, back 9 even (out 37 / in 35). Nine-hole totals: Blancas 3383/3011, Amarillas 3195/2837, Azules 3043/2694, Rojas 2888/2523, Naranjas 2553/2188 — each sums exactly to the tee total. Blancas and Amarillas are rated for men only. Naranjas tees are orange on the card; 'gold' used as nearest allowed color. Discrepancy: golfingholiday.com shows an older/incorrect card with hole 9 as par 4 and hole 18 as par 5 plus a different SI allocation; RFEG, mScorecard and Hole19 all agree on the card returned here. RFEG also lists a 'PROVISIONAL H2 Y H11' variant (temporary layout for holes 2 and 11) which was excluded as it is not the standard course. Note: golfify.io and hole19golf.com/courses/la-finca-golf contain data for a different course (La Finca Golf, Pozuelo de Alarcon, Madrid) and were disregarded."
+}

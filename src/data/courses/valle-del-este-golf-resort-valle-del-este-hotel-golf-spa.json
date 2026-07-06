@@ -1,0 +1,331 @@
+{
+  "id": "valle-del-este-golf-resort-valle-del-este-hotel-golf-spa",
+  "name": "Valle del Este Golf Resort (Valle del Este Hotel Golf Spa)",
+  "location": "Vera, Almería",
+  "parTotal": 71,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "strokeIndex": 11
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 4,
+      "par": 5,
+      "strokeIndex": 5
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 9,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 10,
+      "par": 5,
+      "strokeIndex": 8
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 14
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 70.5,
+      "slope": 135,
+      "distances": [
+        379,
+        203,
+        351,
+        471,
+        283,
+        147,
+        372,
+        305,
+        454,
+        430,
+        321,
+        152,
+        325,
+        135,
+        381,
+        355,
+        321,
+        308
+      ],
+      "totalMeters": 5693
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 69.3,
+      "slope": 132,
+      "distances": [
+        357,
+        181,
+        337,
+        458,
+        275,
+        131,
+        347,
+        295,
+        431,
+        427,
+        314,
+        132,
+        318,
+        120,
+        368,
+        340,
+        300,
+        301
+      ],
+      "totalMeters": 5432
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 67,
+      "slope": 125,
+      "distances": [
+        338,
+        154,
+        320,
+        430,
+        253,
+        116,
+        320,
+        281,
+        395,
+        382,
+        306,
+        107,
+        282,
+        102,
+        350,
+        315,
+        291,
+        281
+      ],
+      "totalMeters": 5023
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 72.4,
+      "slope": 127,
+      "distances": [
+        338,
+        154,
+        320,
+        430,
+        253,
+        116,
+        320,
+        281,
+        395,
+        382,
+        306,
+        107,
+        282,
+        102,
+        350,
+        315,
+        291,
+        281
+      ],
+      "totalMeters": 5023
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 65.4,
+      "slope": 116,
+      "distances": [
+        304,
+        142,
+        308,
+        411,
+        242,
+        104,
+        290,
+        247,
+        361,
+        350,
+        281,
+        92,
+        246,
+        89,
+        334,
+        291,
+        265,
+        251
+      ],
+      "totalMeters": 4608
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 70.2,
+      "slope": 125,
+      "distances": [
+        304,
+        142,
+        308,
+        411,
+        242,
+        104,
+        290,
+        247,
+        361,
+        350,
+        281,
+        92,
+        246,
+        89,
+        334,
+        291,
+        265,
+        251
+      ],
+      "totalMeters": 4608
+    },
+    {
+      "name": "Rosas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 67.2,
+      "slope": 121,
+      "distances": [
+        273,
+        101,
+        281,
+        390,
+        226,
+        93,
+        285,
+        209,
+        346,
+        298,
+        237,
+        73,
+        231,
+        86,
+        329,
+        271,
+        258,
+        208
+      ],
+      "totalMeters": 4195
+    },
+    {
+      "name": "Rosas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 63.1,
+      "slope": 107,
+      "distances": [
+        273,
+        101,
+        281,
+        390,
+        226,
+        93,
+        285,
+        209,
+        346,
+        298,
+        237,
+        73,
+        231,
+        86,
+        329,
+        271,
+        258,
+        208
+      ],
+      "totalMeters": 4195
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/valle_del_este_hotel_golf_spa?id=339",
+    "https://www.thesocialgolfer.com/golf-courses/spain/almeria/valle-del-este-golf-resort/scorecard/valle-del-este-golf-resort-yellow-tee-scorecard",
+    "https://www.golfingholiday.com/golf-course/valle-del-este/course-map-score-card/"
+  ],
+  "notes": "Primary source: official RFEG club page (hole-by-hole par, hcp, meters per tee, and Vc/Vs ratings). Internal consistency verified: pars sum 36+35=71; stroke indexes are a permutation of 1-18 (odd SI on front nine, even on back); each tee's 18 distances sum exactly to its published total. Cross-check: The Social Golfer's 'yellow tee' card matches RFEG Amarillas per-hole distances and pars exactly (its 'yards' label is mislabeled meters), but its stroke indexes differ on 6 holes (1,5,13,16,17,18); golfingholiday.com carries an older/different card (yardages, different SI) and was disregarded. RFEG's SI allocation is used as authoritative. Discrepancy: RFEG rates the Rosas recorrido at par 70 (back nine 34) despite the standard card being par 71 — likely one back-nine hole (probably 10, 298 m) plays as par 4 from Rosas; per-hole Rosas pars were not itemized, so the holes array reflects the standard par-71 card. Rosas is a pink tee; 'red' is the closest allowed color. RFEG also lists a separate 18-hole par-3 'Verdes' recorrido (1926 m, par 54, Vc/Vs 54.8/71 men, 52.9/62 women) without per-hole data, omitted here as it is not the main course."
+}

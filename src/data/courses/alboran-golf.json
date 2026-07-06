@@ -1,0 +1,275 @@
+{
+  "id": "alboran-golf",
+  "name": "Alborán Golf",
+  "location": "Retamar (El Toyo), Almería",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "strokeIndex": 13
+    },
+    {
+      "number": 3,
+      "par": 5,
+      "strokeIndex": 7
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "strokeIndex": 5
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 8,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 17
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 13,
+      "par": 5,
+      "strokeIndex": 12
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 18,
+      "par": 5,
+      "strokeIndex": 6
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 73,
+      "slope": 132,
+      "distances": [
+        320,
+        169,
+        493,
+        364,
+        332,
+        202,
+        414,
+        518,
+        333,
+        362,
+        378,
+        163,
+        494,
+        389,
+        322,
+        379,
+        154,
+        492
+      ],
+      "totalMeters": 6278
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 71.4,
+      "slope": 128,
+      "distances": [
+        304,
+        160,
+        476,
+        345,
+        302,
+        191,
+        396,
+        499,
+        312,
+        345,
+        361,
+        154,
+        464,
+        370,
+        304,
+        361,
+        141,
+        471
+      ],
+      "totalMeters": 5956
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 69.8,
+      "slope": 125,
+      "distances": [
+        279,
+        145,
+        453,
+        325,
+        289,
+        177,
+        384,
+        485,
+        298,
+        313,
+        341,
+        142,
+        445,
+        352,
+        295,
+        351,
+        131,
+        447
+      ],
+      "totalMeters": 5652
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 75.7,
+      "slope": 132,
+      "distances": [
+        279,
+        145,
+        453,
+        325,
+        289,
+        177,
+        384,
+        485,
+        298,
+        313,
+        341,
+        142,
+        445,
+        352,
+        295,
+        351,
+        131,
+        447
+      ],
+      "totalMeters": 5652
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 68.4,
+      "slope": 124,
+      "distances": [
+        264,
+        134,
+        430,
+        300,
+        268,
+        166,
+        365,
+        468,
+        267,
+        296,
+        325,
+        136,
+        439,
+        339,
+        288,
+        331,
+        125,
+        430
+      ],
+      "totalMeters": 5371
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 74,
+      "slope": 128,
+      "distances": [
+        264,
+        134,
+        430,
+        300,
+        268,
+        166,
+        365,
+        468,
+        267,
+        296,
+        325,
+        136,
+        439,
+        339,
+        288,
+        331,
+        125,
+        430
+      ],
+      "totalMeters": 5371
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/club/alboran_golf?id=348",
+    "https://www.golfingholiday.com/golf-course/alboran/course-map-score-card/",
+    "https://18birdies.com/golf-courses/club/c911c780-86ac-11e4-8c28-020000005b00/alboran-golf"
+  ],
+  "notes": "Primary source RFEG (rfegolf.es club id=348): per-hole par, hcp and meters for Blancas/Amarillas/Azules/Rojas plus ratings. Distances and pars cross-check exactly with golfingholiday.com and 18birdies scorecards (both platforms mislabel the meter figures as yards). All per-hole sums match published totals exactly. Discrepancy: stroke-index allocation differs between RFEG (used here: SI front 15,13,7,9,11,5,1,3,17; back 8,4,18,12,2,14,10,16,6) and the 18birdies/golfingholiday card (front 17,5,13,9,15,3,1,7,11; back 4,10,14,12,2,18,6,16,8); both agree hole 7 is SI 1 and hole 14 SI 2. RFEG, as the official federation source, was followed. RFEG applies the same hcp allocation to all tees. Blancas and Amarillas are rated for men only; Azules and Rojas are rated for both genders (women's entries emitted with same distances). RFEG also lists a separate 9-hole P&P 'Verdes' pitch-and-putt recorrido (par 27, 942 m, CR 52.4/61 men, 53.9/72 women) which is excluded as it is not part of the 18-hole championship card. Blancas CR published as 73 (assumed 73.0) and Rojas women 74 (assumed 74.0)."
+}

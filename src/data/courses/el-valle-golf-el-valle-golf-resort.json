@@ -1,0 +1,331 @@
+{
+  "id": "el-valle-golf-el-valle-golf-resort",
+  "name": "El Valle Golf (El Valle Golf Resort)",
+  "location": "Baños y Mendigo, Murcia",
+  "parTotal": 71,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 3,
+      "par": 5,
+      "strokeIndex": 12
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 18
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "strokeIndex": 6
+    },
+    {
+      "number": 7,
+      "par": 5,
+      "strokeIndex": 8
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 9,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 17
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "strokeIndex": 7
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "strokeIndex": 11
+    },
+    {
+      "number": 16,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 5
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 73.3,
+      "slope": 135,
+      "distances": [
+        353,
+        436,
+        523,
+        336,
+        383,
+        204,
+        585,
+        374,
+        187,
+        339,
+        271,
+        188,
+        399,
+        318,
+        205,
+        500,
+        379,
+        375
+      ],
+      "totalMeters": 6355
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 80.7,
+      "slope": 140,
+      "distances": [
+        353,
+        436,
+        523,
+        336,
+        383,
+        204,
+        585,
+        374,
+        187,
+        339,
+        271,
+        188,
+        399,
+        318,
+        205,
+        500,
+        379,
+        375
+      ],
+      "totalMeters": 6355
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 69.5,
+      "slope": 130,
+      "distances": [
+        312,
+        400,
+        453,
+        314,
+        303,
+        182,
+        509,
+        318,
+        166,
+        309,
+        260,
+        164,
+        331,
+        282,
+        157,
+        495,
+        357,
+        322
+      ],
+      "totalMeters": 5634
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 76.8,
+      "slope": 139,
+      "distances": [
+        312,
+        400,
+        453,
+        314,
+        303,
+        182,
+        509,
+        318,
+        166,
+        309,
+        260,
+        164,
+        331,
+        282,
+        157,
+        495,
+        357,
+        322
+      ],
+      "totalMeters": 5634
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 68,
+      "slope": 129,
+      "distances": [
+        309,
+        322,
+        451,
+        310,
+        298,
+        159,
+        505,
+        313,
+        162,
+        306,
+        242,
+        125,
+        327,
+        278,
+        154,
+        478,
+        322,
+        318
+      ],
+      "totalMeters": 5379
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 75.2,
+      "slope": 137,
+      "distances": [
+        309,
+        322,
+        451,
+        310,
+        298,
+        159,
+        505,
+        313,
+        162,
+        306,
+        242,
+        125,
+        327,
+        278,
+        154,
+        478,
+        322,
+        318
+      ],
+      "totalMeters": 5379
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 64,
+      "slope": 107,
+      "distances": [
+        247,
+        320,
+        383,
+        244,
+        242,
+        102,
+        441,
+        224,
+        141,
+        244,
+        186,
+        96,
+        280,
+        220,
+        115,
+        448,
+        279,
+        254
+      ],
+      "totalMeters": 4466
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 69,
+      "slope": 123,
+      "distances": [
+        247,
+        320,
+        383,
+        244,
+        242,
+        102,
+        441,
+        224,
+        141,
+        244,
+        186,
+        96,
+        280,
+        220,
+        115,
+        448,
+        279,
+        254
+      ],
+      "totalMeters": 4466
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/ClubPaginas/ClubMicrosite.aspx?ClubId=983",
+    "https://www.gnkgolf.com/storage/multimedia/SCORE_CARD_EL_VALLE_PDF1564149334.pdf",
+    "https://www.gnkgolf.com/campos/elvalle"
+  ],
+  "notes": "Primary source: RFEG club microsite (federative code MM23, recorrido 'EL VALLE', selector value 2305), which lists per-hole meters, par, handicap, and Vc/Vs for all four tees for both genders. Distances, pars, and totals cross-check exactly with the official GNK Golf printed scorecard PDF (2019). Discrepancies: (1) Stroke index — RFEG assigns one allocation to Blancas/Amarillas (used here, per men's championship tee) and a different one to Azules/Rojas (1:9, 2:5, 3:1, 4:15, 5:7, 6:17, 7:3, 8:13, 9:11, 10:12, 11:18, 12:14, 13:4, 14:10, 15:16, 16:2, 17:8, 18:6); the 2019 GNK printed card shows an older single allocation (1:8, 2:2, 3:5, 4:16, 5:10, 6:13, 7:6, 8:7, 9:9, 10:17, 11:18, 12:11, 13:1, 14:14, 15:15, 16:3, 17:12, 18:4). RFEG current data was preferred. (2) Ratings on the 2019 printed card (e.g. Blancas M 73.6) differ slightly from current RFEG ratings (73.3/135); RFEG used. RFEG per-nine ratings, men — Blancas: ida 37.7/132, vuelta 35.6/139; Amarillas: 35.5/129, 34.0/131; Azules: 34.8/128, 33.2/130; Rojas: 32.7/102, 31.3/112. Women — Blancas: 41.8/145, 38.9/136; Amarillas: 39.3/138, 37.5/139; Azules: 38.6/136, 36.6/138; Rojas: 35.3/126, 33.7/121. Internal consistency verified: pars sum 36+35=71, SI is a permutation of 1-18, each tee's 18 distances sum exactly to its total."
+}

@@ -1,0 +1,332 @@
+{
+  "id": "bonalba-golf-club-de-golf-de-bonalba",
+  "name": "Bonalba Golf (Club de Golf de Bonalba)",
+  "location": "Mutxamel, Alicante",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 2,
+      "par": 5,
+      "strokeIndex": 9
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 17
+    },
+    {
+      "number": 4,
+      "par": 3,
+      "strokeIndex": 15
+    },
+    {
+      "number": 5,
+      "par": 5,
+      "strokeIndex": 11
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "strokeIndex": 13
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 18
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "strokeIndex": 12
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 13,
+      "par": 5,
+      "strokeIndex": 4
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "strokeIndex": 16
+    },
+    {
+      "number": 15,
+      "par": 5,
+      "strokeIndex": 14
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 10
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 73.4,
+      "slope": 138,
+      "distances": [
+        375,
+        509,
+        338,
+        175,
+        487,
+        323,
+        395,
+        168,
+        397,
+        350,
+        181,
+        396,
+        493,
+        184,
+        486,
+        362,
+        389,
+        359
+      ],
+      "totalMeters": 6367
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 80.7,
+      "slope": 139,
+      "distances": [
+        375,
+        509,
+        338,
+        175,
+        487,
+        323,
+        395,
+        168,
+        397,
+        350,
+        181,
+        396,
+        493,
+        184,
+        486,
+        362,
+        389,
+        359
+      ],
+      "totalMeters": 6367
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 71.9,
+      "slope": 134,
+      "distances": [
+        355,
+        502,
+        325,
+        158,
+        468,
+        304,
+        383,
+        151,
+        381,
+        331,
+        161,
+        380,
+        480,
+        170,
+        465,
+        350,
+        377,
+        355
+      ],
+      "totalMeters": 6096
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 79,
+      "slope": 136,
+      "distances": [
+        355,
+        502,
+        325,
+        158,
+        468,
+        304,
+        383,
+        151,
+        381,
+        331,
+        161,
+        380,
+        480,
+        170,
+        465,
+        350,
+        377,
+        355
+      ],
+      "totalMeters": 6096
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 69,
+      "slope": 123,
+      "distances": [
+        322,
+        453,
+        298,
+        128,
+        439,
+        265,
+        341,
+        137,
+        301,
+        298,
+        128,
+        347,
+        453,
+        145,
+        439,
+        314,
+        362,
+        313
+      ],
+      "totalMeters": 5483
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 74.7,
+      "slope": 136,
+      "distances": [
+        322,
+        453,
+        298,
+        128,
+        439,
+        265,
+        341,
+        137,
+        301,
+        298,
+        128,
+        347,
+        453,
+        145,
+        439,
+        314,
+        362,
+        313
+      ],
+      "totalMeters": 5483
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 68.3,
+      "slope": 122,
+      "distances": [
+        312,
+        448,
+        282,
+        125,
+        432,
+        263,
+        331,
+        126,
+        292,
+        296,
+        128,
+        330,
+        439,
+        142,
+        424,
+        314,
+        347,
+        298
+      ],
+      "totalMeters": 5329
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 73.7,
+      "slope": 134,
+      "distances": [
+        312,
+        448,
+        282,
+        125,
+        432,
+        263,
+        331,
+        126,
+        292,
+        296,
+        128,
+        330,
+        439,
+        142,
+        424,
+        314,
+        347,
+        298
+      ],
+      "totalMeters": 5329
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/club/club_de_golf_de_bonalba?id=534",
+    "https://golfbonalba.com/wp-content/uploads/2022/09/strokesaver-golfbonalba.pdf",
+    "https://18birdies.com/golf-courses/club/ca006d40-86ac-11e4-8c28-020000005b00/bonalba-golf-resort",
+    "https://www.golfshake.com/course/view/23225/Club_de_Golf_Bonalba.html"
+  ],
+  "notes": "Per-hole par, stroke index (single men's allocation printed on the card) and distances come from the club's official Libro de Campo/Strokesaver PDF (tarjeta de recorrido page plus 18 individual hole pages), cross-checked hole-by-hole against 18Birdies (identical par, SI and white-tee meters). Course rating (Vc) and slope (Vs) per tee/gender are from the current RFEG club page. Discrepancies: (1) RFEG's current rated lengths are shorter than the club card sums - Blancas 6256 m, Amarillas 5963 m, Azules 5396 m, Rojas 5229 m vs card 6367/6096/5483/5329 - indicating a re-measurement/re-rating after the 2022 strokesaver was printed; per-hole breakdowns for the RFEG lengths are not published, so the club-card per-hole meters are reported and each tee's totalMeters matches its per-hole sum. (2) Red hole 3 prints ambiguously as 285 on the summary card, but the front-nine total (2611) and the hole page both confirm 282. (3) Azules per-hole distances are not on the printed summary card; they were compiled from the 18 hole pages of the same official PDF. Older ratings on the strokesaver (yellow slope 137) and golfshake (yellow 72/138, red 74/132) are superseded by the RFEG values. Course: 18 holes, par 72, designer Ramon Espinosa."
+}

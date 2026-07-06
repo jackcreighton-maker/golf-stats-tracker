@@ -1,0 +1,304 @@
+{
+  "id": "font-del-llop-golf-resort",
+  "name": "Font del Llop Golf Resort",
+  "location": "Monforte del Cid, Alicante",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 17
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "strokeIndex": 6
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 5,
+      "par": 5,
+      "strokeIndex": 15
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 18
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "strokeIndex": 11
+    },
+    {
+      "number": 9,
+      "par": 5,
+      "strokeIndex": 1
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 10
+    },
+    {
+      "number": 11,
+      "par": 5,
+      "strokeIndex": 8
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "strokeIndex": 12
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 15,
+      "par": 5,
+      "strokeIndex": 14
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "strokeIndex": 13
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 9
+    },
+    {
+      "number": 18,
+      "par": 5,
+      "strokeIndex": 4
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 74.3,
+      "slope": 144,
+      "distances": [
+        338,
+        416,
+        205,
+        388,
+        499,
+        407,
+        263,
+        174,
+        494,
+        434,
+        463,
+        146,
+        398,
+        353,
+        458,
+        199,
+        194,
+        484
+      ],
+      "totalMeters": 6313
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 71.6,
+      "slope": 140,
+      "distances": [
+        338,
+        386,
+        157,
+        378,
+        484,
+        350,
+        258,
+        143,
+        491,
+        406,
+        441,
+        132,
+        363,
+        324,
+        405,
+        165,
+        160,
+        465
+      ],
+      "totalMeters": 5846
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 69,
+      "slope": 133,
+      "distances": [
+        318,
+        353,
+        123,
+        366,
+        453,
+        317,
+        258,
+        121,
+        455,
+        374,
+        418,
+        118,
+        337,
+        324,
+        381,
+        141,
+        130,
+        433
+      ],
+      "totalMeters": 5420
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 75.9,
+      "slope": 144,
+      "distances": [
+        318,
+        353,
+        123,
+        366,
+        453,
+        317,
+        258,
+        121,
+        455,
+        374,
+        418,
+        118,
+        337,
+        324,
+        381,
+        141,
+        130,
+        433
+      ],
+      "totalMeters": 5420
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.4,
+      "slope": 123,
+      "distances": [
+        299,
+        314,
+        98,
+        341,
+        390,
+        281,
+        231,
+        95,
+        407,
+        344,
+        391,
+        93,
+        319,
+        296,
+        342,
+        111,
+        100,
+        408
+      ],
+      "totalMeters": 4860
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 72,
+      "slope": 136,
+      "distances": [
+        299,
+        314,
+        98,
+        341,
+        390,
+        281,
+        231,
+        95,
+        407,
+        344,
+        391,
+        93,
+        319,
+        296,
+        342,
+        111,
+        100,
+        408
+      ],
+      "totalMeters": 4860
+    },
+    {
+      "name": "Rosas (W)",
+      "color": "gray",
+      "gender": "female",
+      "courseRating": 70,
+      "slope": 131,
+      "distances": [
+        261,
+        314,
+        85,
+        275,
+        341,
+        292,
+        193,
+        95,
+        407,
+        309,
+        391,
+        93,
+        292,
+        252,
+        342,
+        111,
+        100,
+        377
+      ],
+      "totalMeters": 4530
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/club_de_golf_font_del_llop?id=526",
+    "https://www.allsquaregolf.com/golf-courses/spain/font-del-llop-golf-resort",
+    "https://www.hole19golf.com/courses/font-del-llop-golf-resort",
+    "https://18birdies.com/golf-courses/club/c9108f00-86ac-11e4-8c28-020000005b00/font-del-llop-golf-resort"
+  ],
+  "notes": "All distances are METERS (some aggregators mislabel them as yards; the 6,313 m white total equals the 6,904 yd figure shown on golfshake/golfingholiday). Per-hole distances for every tee sum exactly to the RFEG-published totals (6313/5846/5420/4860/4530 m). Ratings and slopes are the current official RFEG values; AllSquare shows slightly older ratings (e.g. Blancas 74.1/141 vs RFEG 74.3/144, Azules F 75.7/147 vs 75.9/144, Rojas F 72.2/137 vs 72.0/136, Rosas 70.1/131 vs 70.0/131) - RFEG values used. Pars and stroke indexes identical across 18Birdies, Hole19 and AllSquare; hole 9 (par 5, SI 1) and hole 17 (par 3) match the club's own hole descriptions. Rosas (pink) tee mapped to color 'gray' since pink is not an allowed color and red was taken; it is rated for women only. RFEG also lists a 9-hole 'R.C.I. Verdes' short course (2,652 m) and special 'Seniors FGCV' ratings (Amarillas M 70.6/138 at 5,621 m; Rojas F 72.0/136), omitted from tees as they are not standard 18-hole tee sets."
+}

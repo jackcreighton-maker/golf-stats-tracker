@@ -1,0 +1,388 @@
+{
+  "id": "lo-romero-golf",
+  "name": "Lo Romero Golf",
+  "location": "Pilar de la Horadada, Alicante",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 2,
+      "par": 5,
+      "strokeIndex": 2
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 18
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "strokeIndex": 10
+    },
+    {
+      "number": 6,
+      "par": 5,
+      "strokeIndex": 14
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "strokeIndex": 12
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 10,
+      "par": 5,
+      "strokeIndex": 5
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 17
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "strokeIndex": 7
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "strokeIndex": 13
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 3
+    },
+    {
+      "number": 17,
+      "par": 5,
+      "strokeIndex": 9
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 1
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 72.8,
+      "slope": 133,
+      "distances": [
+        341,
+        491,
+        383,
+        366,
+        167,
+        502,
+        194,
+        365,
+        327,
+        515,
+        297,
+        197,
+        323,
+        329,
+        180,
+        427,
+        484,
+        368
+      ],
+      "totalMeters": 6256
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 80.8,
+      "slope": 138,
+      "distances": [
+        341,
+        491,
+        383,
+        366,
+        167,
+        502,
+        194,
+        365,
+        327,
+        515,
+        297,
+        197,
+        323,
+        329,
+        180,
+        427,
+        484,
+        368
+      ],
+      "totalMeters": 6256
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 72,
+      "slope": 132,
+      "distances": [
+        324,
+        486,
+        377,
+        344,
+        157,
+        496,
+        179,
+        360,
+        322,
+        509,
+        294,
+        179,
+        318,
+        324,
+        167,
+        411,
+        479,
+        356
+      ],
+      "totalMeters": 6082
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 73.3,
+      "slope": 130,
+      "distances": [
+        324,
+        486,
+        377,
+        344,
+        157,
+        496,
+        179,
+        360,
+        322,
+        509,
+        294,
+        179,
+        318,
+        324,
+        167,
+        411,
+        479,
+        356
+      ],
+      "totalMeters": 6082
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 69.5,
+      "slope": 124,
+      "distances": [
+        303,
+        410,
+        361,
+        324,
+        143,
+        467,
+        162,
+        333,
+        304,
+        497,
+        266,
+        151,
+        305,
+        280,
+        157,
+        372,
+        467,
+        337
+      ],
+      "totalMeters": 5639
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 76.1,
+      "slope": 136,
+      "distances": [
+        303,
+        410,
+        361,
+        324,
+        143,
+        467,
+        162,
+        333,
+        304,
+        497,
+        266,
+        151,
+        305,
+        280,
+        157,
+        372,
+        467,
+        337
+      ],
+      "totalMeters": 5639
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 67.4,
+      "slope": 121,
+      "distances": [
+        291,
+        392,
+        345,
+        295,
+        131,
+        450,
+        149,
+        309,
+        285,
+        466,
+        254,
+        113,
+        296,
+        251,
+        148,
+        355,
+        445,
+        301
+      ],
+      "totalMeters": 5276
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 73.3,
+      "slope": 130,
+      "distances": [
+        291,
+        392,
+        345,
+        295,
+        131,
+        450,
+        149,
+        309,
+        285,
+        466,
+        254,
+        113,
+        296,
+        251,
+        148,
+        355,
+        445,
+        301
+      ],
+      "totalMeters": 5276
+    },
+    {
+      "name": "Naranjas",
+      "color": "gray",
+      "gender": "male",
+      "courseRating": 66,
+      "slope": 109,
+      "distances": [
+        282,
+        387,
+        322,
+        285,
+        122,
+        426,
+        136,
+        211,
+        274,
+        421,
+        232,
+        90,
+        263,
+        247,
+        132,
+        346,
+        413,
+        293
+      ],
+      "totalMeters": 4882
+    },
+    {
+      "name": "Naranjas (W)",
+      "color": "gray",
+      "gender": "female",
+      "courseRating": 70.7,
+      "slope": 122,
+      "distances": [
+        282,
+        387,
+        322,
+        285,
+        122,
+        426,
+        136,
+        211,
+        274,
+        421,
+        232,
+        90,
+        263,
+        247,
+        132,
+        346,
+        413,
+        293
+      ],
+      "totalMeters": 4882
+    }
+  ],
+  "sources": [
+    "https://rfeg.es/club/campo_de_golf_lo_romero?id=521",
+    "https://loromerogolf.com/en/the-course/",
+    "https://loromerogolf.com/wp-content/uploads/2022/12/LV20-SLOPE-LO-ROMERO.pdf",
+    "https://www.golfshake.com/course/view/64177/Lo_Romero.html"
+  ],
+  "notes": "Per-hole data taken directly from the RFEG club page (id=521), which embeds hole-by-hole tables for all 10 rated recorridos (Blancas/Amarillas/Azules/Rojas/Naranjas, M and F). Par (4,5,4,4,3,5,3,4,4 / 5,4,3,4,4,3,4,5,4; front 3136m, back 3120m from Blancas) and stroke index match the club's official website hole descriptions exactly; SI is identical across tees/genders on the RFEG card (even SIs front nine, odd back nine). Golfshake yardage totals convert to matching meter totals (yellow 6651yd=6082m, blue 6166yd=5638m, red 5770yd=5276m). Discrepancies: (1) the WHS conversion-table PDF on the club site (dated 25/07/2015) lists older ratings (men Blancas 72.5/138, Amarillas 71.7/136, Azules 69.6/127, Rojas 68.4/132; women Azules 76.0/137, Rojas 73.5/133) — superseded by the current RFEG page values reported here; (2) Amarillas (W) rating 73.3/130 is identical to Rojas (W), which looks like a possible RFEG data-entry duplication given Amarillas is 800m longer — reported as published; (3) club-site prose cites hole 10 as 506m and hole 5 as 168m from yellow vs RFEG 509m/157m (marketing text likely outdated). Naranjas (orange) mapped to color \"gray\" since orange is not an allowed color value."
+}

@@ -1,0 +1,276 @@
+{
+  "id": "hacienda-riquelme-golf-resort",
+  "name": "Hacienda Riquelme Golf Resort",
+  "location": "Sucina, Murcia",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 2,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 4,
+      "par": 5,
+      "strokeIndex": 17
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "strokeIndex": 11
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "strokeIndex": 7
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 18
+    },
+    {
+      "number": 11,
+      "par": 5,
+      "strokeIndex": 4
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 14,
+      "par": 5,
+      "strokeIndex": 6
+    },
+    {
+      "number": 15,
+      "par": 3,
+      "strokeIndex": 10
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 8
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 2
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 73.5,
+      "slope": 139,
+      "distances": [
+        401,
+        516,
+        363,
+        479,
+        188,
+        385,
+        177,
+        336,
+        369,
+        322,
+        488,
+        352,
+        360,
+        476,
+        190,
+        348,
+        198,
+        408
+      ],
+      "totalMeters": 6356
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 70.8,
+      "slope": 132,
+      "distances": [
+        367,
+        487,
+        336,
+        437,
+        159,
+        361,
+        157,
+        310,
+        341,
+        297,
+        458,
+        331,
+        338,
+        433,
+        171,
+        323,
+        179,
+        369
+      ],
+      "totalMeters": 5854
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 69.3,
+      "slope": 124,
+      "distances": [
+        350,
+        469,
+        320,
+        413,
+        144,
+        345,
+        130,
+        297,
+        325,
+        283,
+        442,
+        318,
+        323,
+        419,
+        154,
+        308,
+        159,
+        353
+      ],
+      "totalMeters": 5552
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 76.1,
+      "slope": 139,
+      "distances": [
+        350,
+        469,
+        320,
+        413,
+        144,
+        345,
+        130,
+        297,
+        325,
+        283,
+        442,
+        318,
+        323,
+        419,
+        154,
+        308,
+        159,
+        353
+      ],
+      "totalMeters": 5552
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.6,
+      "slope": 118,
+      "distances": [
+        299,
+        396,
+        265,
+        406,
+        137,
+        338,
+        120,
+        292,
+        281,
+        276,
+        436,
+        262,
+        278,
+        412,
+        147,
+        301,
+        126,
+        312
+      ],
+      "totalMeters": 5084
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 72.7,
+      "slope": 133,
+      "distances": [
+        299,
+        396,
+        265,
+        406,
+        137,
+        338,
+        120,
+        292,
+        281,
+        276,
+        436,
+        262,
+        278,
+        412,
+        147,
+        301,
+        126,
+        312
+      ],
+      "totalMeters": 5084
+    }
+  ],
+  "sources": [
+    "https://www.gnkgolf.com/storage/multimedia/Tarjeta_Hacienda_Riquelme1655117324.pdf",
+    "https://www.hrgs.es/_files/ugd/623d67_5433b16dd2a046eb87eea151bf95829f.pdf",
+    "https://www.mscorecard.com/mscorecard/showcourse.php?cid=1325108368340",
+    "https://rfegolf.es/club/hacienda_riquelme_golf?id=553"
+  ],
+  "notes": "Per-hole distances and pars verified identical across three sources: the current official GNK Golf scorecard PDF (June 2022), the club's own website scorecard PDF (hrgs.es, 2018 edition), and mscorecard.com. All internal checks pass: pars sum to 72 (36+36), men's and ladies' SI are each permutations of 1-18, and every tee's 18 distances sum exactly to its printed total (6356/5854/5552/5084 m). Stroke index uses the current GNK card's Hcp Caballeros row; the older 2018 club-site card printed a different single HCP allocation (1:4, 2:11, 3:3, 4:14, 5:9, 6:16, 7:8, 8:15, 9:1, 10:18, 11:5, 12:17, 13:10, 14:6, 15:13, 16:7, 17:12, 18:2) - the 2022 card supersedes it. Ladies' SI on the 2022 card (if needed): 12,6,10,4,18,8,16,14,2,11,3,17,9,1,13,7,15,5. Ratings (Vc/Slope) are from the current official card: men Blancas 73.5/139, Amarillas 70.8/132, Azules 69.3/124, Rojas 66.6/118; two ladies' ratings 76.1/139 and 72.7/133 are printed without explicit tee labels - assigned to Azules and Rojas respectively, consistent with the RFEG legacy rating set (Azules Damas 76.0/137, Rojas Damas rated). Note: the RFEG club page still lists an older rating set (Blancas 74.0/143, Amarillas 70.9/135, Azules 69.3/125, plus discontinued Verdes 5226 m and an older shorter Rojas at 4679 m) that predates the current card; the current club/GNK card was preferred."
+}

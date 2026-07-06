@@ -1,0 +1,303 @@
+{
+  "id": "las-colinas-golf-country-club",
+  "name": "Las Colinas Golf & Country Club",
+  "location": "Dehesa de Campoamor (Orihuela Costa), Alicante",
+  "parTotal": 71,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 3,
+      "par": 5,
+      "strokeIndex": 11
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "strokeIndex": 3
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 7,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 11,
+      "par": 5,
+      "strokeIndex": 4
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "strokeIndex": 10
+    },
+    {
+      "number": 15,
+      "par": 5,
+      "strokeIndex": 6
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 8
+    },
+    {
+      "number": 18,
+      "par": 5,
+      "strokeIndex": 14
+    }
+  ],
+  "tees": [
+    {
+      "name": "Negras",
+      "color": "black",
+      "gender": "male",
+      "courseRating": 73.8,
+      "slope": 140,
+      "distances": [
+        437,
+        422,
+        528,
+        314,
+        190,
+        336,
+        108,
+        369,
+        356,
+        160,
+        599,
+        353,
+        364,
+        161,
+        549,
+        381,
+        222,
+        495
+      ],
+      "totalMeters": 6344
+    },
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 72.1,
+      "slope": 138,
+      "distances": [
+        402,
+        401,
+        507,
+        304,
+        170,
+        323,
+        105,
+        358,
+        343,
+        157,
+        570,
+        332,
+        339,
+        158,
+        527,
+        360,
+        197,
+        475
+      ],
+      "totalMeters": 6028
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 69.7,
+      "slope": 135,
+      "distances": [
+        353,
+        379,
+        479,
+        275,
+        160,
+        293,
+        101,
+        348,
+        303,
+        129,
+        538,
+        324,
+        305,
+        140,
+        473,
+        351,
+        172,
+        443
+      ],
+      "totalMeters": 5566
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 66.9,
+      "slope": 123,
+      "distances": [
+        318,
+        333,
+        456,
+        236,
+        138,
+        258,
+        93,
+        272,
+        273,
+        103,
+        511,
+        306,
+        281,
+        129,
+        434,
+        319,
+        150,
+        413
+      ],
+      "totalMeters": 5023
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 72.6,
+      "slope": 134,
+      "distances": [
+        318,
+        333,
+        456,
+        236,
+        138,
+        258,
+        93,
+        272,
+        273,
+        103,
+        511,
+        306,
+        281,
+        129,
+        434,
+        319,
+        150,
+        413
+      ],
+      "totalMeters": 5023
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 64.8,
+      "slope": 114,
+      "distances": [
+        299,
+        306,
+        413,
+        203,
+        109,
+        229,
+        90,
+        259,
+        254,
+        82,
+        485,
+        281,
+        275,
+        90,
+        429,
+        282,
+        140,
+        384
+      ],
+      "totalMeters": 4610
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 69.8,
+      "slope": 125,
+      "distances": [
+        299,
+        306,
+        413,
+        203,
+        109,
+        229,
+        90,
+        259,
+        254,
+        82,
+        485,
+        281,
+        275,
+        90,
+        429,
+        282,
+        140,
+        384
+      ],
+      "totalMeters": 4610
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/club/las_colinas_golf_&_country_club?id=857",
+    "https://www.golfshake.com/course/view/67903/Las_Colinas_Golf_Country_Club.html",
+    "https://www.golfingholiday.com/golf-course/las-colinas-country-club/course-map-score-card/"
+  ],
+  "notes": "Primary data taken verbatim from the RFEG official club page (7 rated recorridos: Negras M, Blancas M, Amarillas M, Azules F/M, Rojas F/M), each with per-hole Hdcp/Par/Metros and Vc/Vs. All internal checks pass: pars sum 35+36=71, stroke indexes are a permutation of 1-18 (RFEG uses the same allocation on every tee), each tee's 18 distances sum exactly to its published total. Golfshake independently corroborates totals converted to yards (6089yd~5566m Amarillas, 5492yd~5023m Azules, 5038yd~4610m Rojas), slopes 138/135/123/125 and the Azules men's rating 66.9. Discrepancy: an older club/marketing card reproduced on golfingholiday.com shows a different stroke-index allocation (SI 2 on hole 1, SI 1 on hole 11) and longer back-of-tee distances (championship tee 6552 m); the RFEG rated card used here is the current official handicapping card. Azules and Rojas are dual-rated; two entries emitted per tee with identical distances."
+}

@@ -1,0 +1,275 @@
+{
+  "id": "club-de-golf-playa-serena",
+  "name": "Club de Golf Playa Serena",
+  "location": "Roquetas de Mar, Almería",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 3,
+      "par": 5,
+      "strokeIndex": 11
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 9
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 7,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "strokeIndex": 5
+    },
+    {
+      "number": 9,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 11,
+      "par": 3,
+      "strokeIndex": 14
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 13,
+      "par": 5,
+      "strokeIndex": 12
+    },
+    {
+      "number": 14,
+      "par": 5,
+      "strokeIndex": 4
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 8
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 10
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 18
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 72.8,
+      "slope": 126,
+      "distances": [
+        356,
+        180,
+        486,
+        406,
+        368,
+        378,
+        530,
+        195,
+        390,
+        299,
+        145,
+        424,
+        452,
+        441,
+        342,
+        356,
+        186,
+        328
+      ],
+      "totalMeters": 6262
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 71.4,
+      "slope": 123,
+      "distances": [
+        334,
+        173,
+        473,
+        389,
+        353,
+        359,
+        518,
+        175,
+        379,
+        296,
+        133,
+        382,
+        439,
+        430,
+        320,
+        347,
+        178,
+        319
+      ],
+      "totalMeters": 5997
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 69.2,
+      "slope": 118,
+      "distances": [
+        308,
+        166,
+        428,
+        372,
+        340,
+        323,
+        498,
+        165,
+        355,
+        285,
+        118,
+        334,
+        404,
+        406,
+        272,
+        332,
+        153,
+        307
+      ],
+      "totalMeters": 5566
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 74.8,
+      "slope": 127,
+      "distances": [
+        308,
+        166,
+        428,
+        372,
+        340,
+        323,
+        498,
+        165,
+        355,
+        285,
+        118,
+        334,
+        404,
+        406,
+        272,
+        332,
+        153,
+        307
+      ],
+      "totalMeters": 5566
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 67.6,
+      "slope": 117,
+      "distances": [
+        283,
+        165,
+        394,
+        361,
+        327,
+        319,
+        478,
+        149,
+        297,
+        279,
+        102,
+        324,
+        394,
+        391,
+        264,
+        322,
+        148,
+        279
+      ],
+      "totalMeters": 5276
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 73,
+      "slope": 122,
+      "distances": [
+        283,
+        165,
+        394,
+        361,
+        327,
+        319,
+        478,
+        149,
+        297,
+        279,
+        102,
+        324,
+        394,
+        391,
+        264,
+        322,
+        148,
+        279
+      ],
+      "totalMeters": 5276
+    }
+  ],
+  "sources": [
+    "https://www.rfeg.es/club/club_de_golf_playa_serena?id=312",
+    "https://www.mscorecard.com/mscorecard/showcourse.php?cid=1212662268964",
+    "https://www.hole19golf.com/courses/club-de-golf-playa-serena"
+  ],
+  "notes": "Data taken directly from the RFEG rated-recorrido tables (raw HTML parsed) and cross-checked hole-by-hole against mScorecard (meters) and Hole19 — all per-hole distances, pars and totals match exactly. Stroke index is identical across all tee sets. One official quirk: on the Rojas tees rated for MEN, RFEG lists hole 13 as par 4 (back nine par 35, course par 71); on Rojas for women and all other tees hole 13 is par 5 (par 72). The holes array above uses the standard par-72 card (hole 13 = par 5); mScorecard shows the same 71/72 split. RFEG also rates a separate 'Pequecircuito' recorrido (18 x par-3, 2008 m total; Amarillas M CR 52.2/slope 60, Rojas F CR 54.0/slope 69), omitted from the tees list as it is a distinct short course, not a tee set of the main 18. Course ratings (Vc) and slopes (Vs) are as published by RFEG per tee/gender."
+}

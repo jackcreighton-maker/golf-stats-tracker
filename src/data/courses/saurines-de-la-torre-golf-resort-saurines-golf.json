@@ -1,0 +1,219 @@
+{
+  "id": "saurines-de-la-torre-golf-resort-saurines-golf",
+  "name": "Saurines de la Torre Golf Resort (Saurines Golf)",
+  "location": "Roldán (Torre-Pacheco), Murcia",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 5,
+      "strokeIndex": 8
+    },
+    {
+      "number": 2,
+      "par": 3,
+      "strokeIndex": 4
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 4,
+      "par": 5,
+      "strokeIndex": 10
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 18
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "strokeIndex": 12
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 9,
+      "par": 5,
+      "strokeIndex": 6
+    },
+    {
+      "number": 10,
+      "par": 3,
+      "strokeIndex": 5
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 12,
+      "par": 4,
+      "strokeIndex": 17
+    },
+    {
+      "number": 13,
+      "par": 5,
+      "strokeIndex": 9
+    },
+    {
+      "number": 14,
+      "par": 3,
+      "strokeIndex": 13
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 16,
+      "par": 4,
+      "strokeIndex": 7
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 3
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 74,
+      "slope": 130,
+      "distances": [
+        494,
+        201,
+        323,
+        498,
+        352,
+        151,
+        360,
+        420,
+        507,
+        207,
+        412,
+        352,
+        500,
+        175,
+        338,
+        401,
+        379,
+        403
+      ],
+      "totalMeters": 6473
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 71.1,
+      "slope": 125,
+      "distances": [
+        475,
+        180,
+        303,
+        454,
+        309,
+        129,
+        341,
+        383,
+        459,
+        197,
+        382,
+        331,
+        454,
+        150,
+        308,
+        374,
+        350,
+        373
+      ],
+      "totalMeters": 5952
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.2,
+      "slope": 116,
+      "distances": [
+        399,
+        147,
+        256,
+        394,
+        251,
+        109,
+        285,
+        321,
+        397,
+        147,
+        293,
+        279,
+        367,
+        91,
+        256,
+        318,
+        284,
+        320
+      ],
+      "totalMeters": 4914
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 70.9,
+      "slope": 124,
+      "distances": [
+        399,
+        147,
+        256,
+        394,
+        251,
+        109,
+        285,
+        321,
+        397,
+        147,
+        293,
+        279,
+        367,
+        91,
+        256,
+        318,
+        284,
+        320
+      ],
+      "totalMeters": 4914
+    }
+  ],
+  "sources": [
+    "https://www.rfeg.es/club/saurines_golf?id=557",
+    "https://www.golfshake.com/course/view/69327/Saurines_De_La_Torre_Golf.html",
+    "https://ugolfiberia.com/saurines-de-la-torre/"
+  ],
+  "notes": "Primary data from the official RFEG club page (federative code MM30), which lists per-hole par, hcp (stroke index) and meters for Blancas (M), Amarillas (M) and Rojas (M/F). Cross-checked with Golfshake, whose tee summary matches exactly after yard conversion: White 74/130 at 7,079 yd = 6,473 m; Yellow 71/125 at 6,509 yd = 5,952 m; Red 71/124 at 5,374 yd = 4,914 m. Internal consistency verified: pars sum to 72 (out 37 / in 35), stroke indexes are a permutation of 1-18, and each tee's distances sum exactly to its stated total. RFEG shows Blancas rating as \"74\" (recorded here as 74.0). Note: the course is a full-length par-72 Jack Nicklaus desert/links design, NOT a par-3 layout (that description likely confuses it with the neighboring La Torre Golf Resort short course). One discrepant source, golfingholiday.com, publishes a scorecard with different pars and 6,498 m total that does not match RFEG, the club operator (UGOLF/formerly GNK), or Golfshake; it appears to be mislabeled data from another course and was disregarded. Stroke index allocation is the single set published by RFEG (identical across tees)."
+}

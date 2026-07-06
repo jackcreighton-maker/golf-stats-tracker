@@ -1,0 +1,332 @@
+{
+  "id": "alenda-golf",
+  "name": "Alenda Golf",
+  "location": "Monforte del Cid, Alicante",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 5,
+      "strokeIndex": 4
+    },
+    {
+      "number": 2,
+      "par": 4,
+      "strokeIndex": 12
+    },
+    {
+      "number": 3,
+      "par": 3,
+      "strokeIndex": 8
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 14
+    },
+    {
+      "number": 5,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 6,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 7,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 8,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 9,
+      "par": 5,
+      "strokeIndex": 10
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 11
+    },
+    {
+      "number": 12,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 13,
+      "par": 3,
+      "strokeIndex": 9
+    },
+    {
+      "number": 14,
+      "par": 5,
+      "strokeIndex": 7
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "strokeIndex": 17
+    },
+    {
+      "number": 17,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 18,
+      "par": 4,
+      "strokeIndex": 5
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 73.7,
+      "slope": 137,
+      "distances": [
+        505,
+        356,
+        188,
+        281,
+        147,
+        423,
+        322,
+        403,
+        451,
+        315,
+        347,
+        544,
+        194,
+        481,
+        356,
+        165,
+        380,
+        371
+      ],
+      "totalMeters": 6229
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 80.6,
+      "slope": 148,
+      "distances": [
+        505,
+        356,
+        188,
+        281,
+        147,
+        423,
+        322,
+        403,
+        451,
+        315,
+        347,
+        544,
+        194,
+        481,
+        356,
+        165,
+        380,
+        371
+      ],
+      "totalMeters": 6229
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 72.1,
+      "slope": 133,
+      "distances": [
+        492,
+        322,
+        174,
+        277,
+        133,
+        399,
+        302,
+        381,
+        432,
+        305,
+        327,
+        518,
+        183,
+        459,
+        327,
+        151,
+        377,
+        344
+      ],
+      "totalMeters": 5903
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 78.5,
+      "slope": 143,
+      "distances": [
+        492,
+        322,
+        174,
+        277,
+        133,
+        399,
+        302,
+        381,
+        432,
+        305,
+        327,
+        518,
+        183,
+        459,
+        327,
+        151,
+        377,
+        344
+      ],
+      "totalMeters": 5903
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 69.8,
+      "slope": 129,
+      "distances": [
+        451,
+        310,
+        159,
+        250,
+        117,
+        355,
+        286,
+        361,
+        408,
+        280,
+        300,
+        493,
+        156,
+        439,
+        306,
+        136,
+        357,
+        318
+      ],
+      "totalMeters": 5482
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 75.8,
+      "slope": 138,
+      "distances": [
+        451,
+        310,
+        159,
+        250,
+        117,
+        355,
+        286,
+        361,
+        408,
+        280,
+        300,
+        493,
+        156,
+        439,
+        306,
+        136,
+        357,
+        318
+      ],
+      "totalMeters": 5482
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 68.1,
+      "slope": 123,
+      "distances": [
+        435,
+        298,
+        152,
+        229,
+        98,
+        345,
+        268,
+        342,
+        375,
+        260,
+        276,
+        443,
+        136,
+        430,
+        284,
+        127,
+        350,
+        284
+      ],
+      "totalMeters": 5132
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 73.5,
+      "slope": 131,
+      "distances": [
+        435,
+        298,
+        152,
+        229,
+        98,
+        345,
+        268,
+        342,
+        375,
+        260,
+        276,
+        443,
+        136,
+        430,
+        284,
+        127,
+        350,
+        284
+      ],
+      "totalMeters": 5132
+    }
+  ],
+  "sources": [
+    "https://rfegolf.es/club/alenda_golf_club?id=820",
+    "https://www.mscorecard.com/mscorecard/showcourse.php?cid=1204994207984",
+    "https://www.golfingholiday.com/golf-course/alenda/course-map-score-card/",
+    "https://www.golfshake.com/course/view/23217/Alenda_Golf.html"
+  ],
+  "notes": "Primary data taken verbatim from the RFEG club page (12 rated recorridos, per-hole Hoyo/Hdcp/Par/Metros tables with Vc/Vs). All four main tee sets (Blancas, Amarillas, Azules, Rojas) share the same par and stroke-index allocation; each is WHS-rated for both men and women, so 8 tee entries are emitted with identical distances per color. Internal consistency verified: pars sum 36+36=72, SI is a permutation of 1-18, and each tee's 18 distances sum exactly to its RFEG total (6229/5903/5482/5132 m). RFEG also lists three special recorridos excluded here: 'Family Game - VERDES' (a par-58, 2604 m short configuration, Vc 58.6/Vs 82 F and 56.34/73 M) and 'Seniors FGCV' setups (Amarillas M 5749 m Vc 70.8/Vs 125; Rojas F 5133 m Vc 73.2/Vs 127) — these are non-standard competition configurations, not regular tee sets. Minor discrepancies in secondary sources: mScorecard (values labeled 'yards' but clearly meters) matches RFEG per hole except hole 7 (328 vs 322) and hole 17 (390 vs 380) on Blancas, total 6245 vs 6229 (likely pre-re-rating figures; club website also historically quoted 6245 m); GolfingHoliday (yards) agrees on all pars and 16/18 stroke indexes, swapping SI 10/14 between holes 4 and 9 relative to RFEG. RFEG figures were preferred throughout."
+}

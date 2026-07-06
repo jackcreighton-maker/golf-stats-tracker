@@ -1,0 +1,331 @@
+{
+  "id": "la-marquesa-golf-country-club",
+  "name": "La Marquesa Golf & Country Club",
+  "location": "Ciudad Quesada, Rojales, Alicante",
+  "parTotal": 71,
+  "verified": true,
+  "holes": [
+    {
+      "number": 1,
+      "par": 4,
+      "strokeIndex": 1
+    },
+    {
+      "number": 2,
+      "par": 5,
+      "strokeIndex": 7
+    },
+    {
+      "number": 3,
+      "par": 4,
+      "strokeIndex": 13
+    },
+    {
+      "number": 4,
+      "par": 4,
+      "strokeIndex": 15
+    },
+    {
+      "number": 5,
+      "par": 4,
+      "strokeIndex": 5
+    },
+    {
+      "number": 6,
+      "par": 3,
+      "strokeIndex": 8
+    },
+    {
+      "number": 7,
+      "par": 5,
+      "strokeIndex": 10
+    },
+    {
+      "number": 8,
+      "par": 3,
+      "strokeIndex": 18
+    },
+    {
+      "number": 9,
+      "par": 5,
+      "strokeIndex": 3
+    },
+    {
+      "number": 10,
+      "par": 4,
+      "strokeIndex": 17
+    },
+    {
+      "number": 11,
+      "par": 4,
+      "strokeIndex": 6
+    },
+    {
+      "number": 12,
+      "par": 3,
+      "strokeIndex": 14
+    },
+    {
+      "number": 13,
+      "par": 4,
+      "strokeIndex": 2
+    },
+    {
+      "number": 14,
+      "par": 4,
+      "strokeIndex": 4
+    },
+    {
+      "number": 15,
+      "par": 4,
+      "strokeIndex": 16
+    },
+    {
+      "number": 16,
+      "par": 3,
+      "strokeIndex": 9
+    },
+    {
+      "number": 17,
+      "par": 3,
+      "strokeIndex": 11
+    },
+    {
+      "number": 18,
+      "par": 5,
+      "strokeIndex": 12
+    }
+  ],
+  "tees": [
+    {
+      "name": "Blancas",
+      "color": "white",
+      "gender": "male",
+      "courseRating": 71.4,
+      "slope": 130,
+      "distances": [
+        386,
+        477,
+        373,
+        307,
+        367,
+        173,
+        487,
+        132,
+        562,
+        310,
+        314,
+        173,
+        374,
+        369,
+        291,
+        119,
+        155,
+        471
+      ],
+      "totalMeters": 5840
+    },
+    {
+      "name": "Blancas (W)",
+      "color": "white",
+      "gender": "female",
+      "courseRating": 77.6,
+      "slope": 143,
+      "distances": [
+        386,
+        477,
+        373,
+        307,
+        367,
+        173,
+        487,
+        132,
+        562,
+        310,
+        314,
+        173,
+        374,
+        369,
+        291,
+        119,
+        155,
+        471
+      ],
+      "totalMeters": 5840
+    },
+    {
+      "name": "Amarillas",
+      "color": "gold",
+      "gender": "male",
+      "courseRating": 70.4,
+      "slope": 127,
+      "distances": [
+        365,
+        465,
+        367,
+        299,
+        359,
+        165,
+        478,
+        119,
+        541,
+        304,
+        306,
+        167,
+        362,
+        360,
+        283,
+        109,
+        148,
+        459
+      ],
+      "totalMeters": 5656
+    },
+    {
+      "name": "Amarillas (W)",
+      "color": "gold",
+      "gender": "female",
+      "courseRating": 76.1,
+      "slope": 140,
+      "distances": [
+        365,
+        465,
+        367,
+        299,
+        359,
+        165,
+        478,
+        119,
+        541,
+        304,
+        306,
+        167,
+        362,
+        360,
+        283,
+        109,
+        148,
+        459
+      ],
+      "totalMeters": 5656
+    },
+    {
+      "name": "Azules",
+      "color": "blue",
+      "gender": "male",
+      "courseRating": 67.2,
+      "slope": 122,
+      "distances": [
+        304,
+        432,
+        342,
+        262,
+        277,
+        153,
+        440,
+        110,
+        511,
+        281,
+        254,
+        157,
+        332,
+        342,
+        235,
+        99,
+        138,
+        434
+      ],
+      "totalMeters": 5103
+    },
+    {
+      "name": "Azules (W)",
+      "color": "blue",
+      "gender": "female",
+      "courseRating": 73.1,
+      "slope": 131,
+      "distances": [
+        304,
+        432,
+        342,
+        262,
+        277,
+        153,
+        440,
+        110,
+        511,
+        281,
+        254,
+        157,
+        332,
+        342,
+        235,
+        99,
+        138,
+        434
+      ],
+      "totalMeters": 5103
+    },
+    {
+      "name": "Rojas",
+      "color": "red",
+      "gender": "male",
+      "courseRating": 66.3,
+      "slope": 120,
+      "distances": [
+        301,
+        423,
+        331,
+        243,
+        269,
+        142,
+        405,
+        102,
+        507,
+        274,
+        247,
+        145,
+        324,
+        333,
+        230,
+        89,
+        126,
+        423
+      ],
+      "totalMeters": 4914
+    },
+    {
+      "name": "Rojas (W)",
+      "color": "red",
+      "gender": "female",
+      "courseRating": 71.8,
+      "slope": 129,
+      "distances": [
+        301,
+        423,
+        331,
+        243,
+        269,
+        142,
+        405,
+        102,
+        507,
+        274,
+        247,
+        145,
+        324,
+        333,
+        230,
+        89,
+        126,
+        423
+      ],
+      "totalMeters": 4914
+    }
+  ],
+  "sources": [
+    "http://www.lamarquesagolf.es/wp-content/uploads/2023/06/tarjeta-del-campo.pdf",
+    "https://www.lamarquesagolf.es/en/golf-course/",
+    "https://rfegolf.es/club/golf_and_country_club_la_marquesa?id=516"
+  ],
+  "notes": "Per-hole data transcribed directly from the club's official scorecard PDF (tarjeta-del-campo.pdf, June 2023), read as an image; every nine and 18-hole total sums exactly to the printed IDA/VUELTA/TOTALES (Blancas 3264+2576=5840, Amarillas 3158+2498=5656, Azules 2831+2272=5103, Rojas 2723+2191=4914), par 37+34=71, and stroke indexes are a valid 1-18 permutation. Cross-checked against the RFEG club page, which confirms par 71, the four tee sets, and near-identical ratings. Ratings on the printed card are Blancas 71.4/130 and Amarillas 70.4/127 (men) and Azules 73.1/131 and Rojas 71.8/129 (women), used here; the other-gender ratings (Blancas/Amarillas women 77.6/143 and 76.1/140, Azules/Rojas men 67.2/122 and 66.3/120) come from RFEG. Discrepancies: RFEG lists slightly different rated lengths (Blancas 5873, Amarillas 5635, Azules 5075, Rojas 4884) with a few holes differing from the card (e.g. hole 8 Blancas 115 vs 132, hole 9 Blancas 631 vs 562, hole 18 Blancas 452 vs 471), and marginally different ratings for the card-published genders (Blancas M 71.4/129, Amarillas M 70.2/126, Azules F 72.7/132, Rojas F 71.5/130) - likely a different rating vintage/marker position; the official card was preferred for distances. RFEG additionally rates an alternative par-72 configuration in which hole 9 (El Largo) plays as a par 6 (~644 m from Blancas; totals 5886/5714/5161/4967) - not included here since the standard tarjeta is par 71. Amarillas mapped to color \"gold\" (yellow not available)."
+}
