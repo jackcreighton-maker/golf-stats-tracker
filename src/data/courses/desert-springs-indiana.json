@@ -1,0 +1,40 @@
+{
+  "id": "desert-springs-indiana",
+  "name": "Desert Springs — Indiana (Par 71)",
+  "location": "Cuevas del Almanzora, Almería",
+  "parTotal": 71,
+  "verified": true,
+  "holes": [
+    { "number": 1, "par": 5, "strokeIndex": 6 },
+    { "number": 2, "par": 3, "strokeIndex": 18 },
+    { "number": 3, "par": 5, "strokeIndex": 8 },
+    { "number": 4, "par": 4, "strokeIndex": 4 },
+    { "number": 5, "par": 4, "strokeIndex": 16 },
+    { "number": 6, "par": 4, "strokeIndex": 14 },
+    { "number": 7, "par": 4, "strokeIndex": 2 },
+    { "number": 8, "par": 3, "strokeIndex": 12 },
+    { "number": 9, "par": 5, "strokeIndex": 10 },
+    { "number": 10, "par": 4, "strokeIndex": 5 },
+    { "number": 11, "par": 4, "strokeIndex": 1 },
+    { "number": 12, "par": 3, "strokeIndex": 9 },
+    { "number": 13, "par": 5, "strokeIndex": 7 },
+    { "number": 14, "par": 3, "strokeIndex": 13 },
+    { "number": 15, "par": 4, "strokeIndex": 3 },
+    { "number": 16, "par": 4, "strokeIndex": 15 },
+    { "number": 17, "par": 3, "strokeIndex": 17 },
+    { "number": 18, "par": 4, "strokeIndex": 11 }
+  ],
+  "tees": [
+    { "name": "Blancas", "color": "white", "gender": "male", "courseRating": 72.2, "slope": 132, "distances": [518, 165, 480, 399, 331, 276, 385, 206, 465, 371, 400, 175, 468, 147, 383, 330, 131, 349], "totalMeters": 5979 },
+    { "name": "Blancas (W)", "color": "white", "gender": "female", "courseRating": 78.0, "slope": 137, "distances": [518, 165, 480, 399, 331, 276, 385, 206, 465, 371, 400, 175, 468, 147, 383, 330, 131, 349], "totalMeters": 5979 },
+    { "name": "Amarillas", "color": "gold", "gender": "male", "courseRating": 70.6, "slope": 131, "distances": [480, 145, 454, 375, 305, 260, 362, 170, 435, 352, 373, 163, 430, 140, 347, 308, 121, 344], "totalMeters": 5564 },
+    { "name": "Amarillas (W)", "color": "gold", "gender": "female", "courseRating": 75.4, "slope": 137, "distances": [480, 145, 454, 375, 305, 260, 362, 170, 435, 352, 373, 163, 430, 140, 347, 308, 121, 344], "totalMeters": 5564 },
+    { "name": "Rojas", "color": "red", "gender": "male", "courseRating": 67.0, "slope": 122, "distances": [432, 120, 405, 310, 268, 251, 345, 121, 407, 329, 337, 121, 383, 118, 321, 280, 107, 309], "totalMeters": 4964 },
+    { "name": "Rojas (W)", "color": "red", "gender": "female", "courseRating": 71.7, "slope": 128, "distances": [432, 120, 405, 310, 268, 251, 345, 121, 407, 329, 337, 121, 383, 118, 321, 280, 107, 309], "totalMeters": 4964 }
+  ],
+  "sources": [
+    "https://rfeg.es/club/desert_springs_golf_club?id=313",
+    "https://www.mscorecard.com/mscorecard/showcourse.php?cid=151329517631501"
+  ],
+  "notes": "RFEG 'Indiana' recorrido: hole 17 plays as a 131 m par 3 (par 71). If your card shows hole 17 as a par 4, use the Par 72 variant course instead."
+}

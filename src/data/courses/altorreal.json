@@ -1,0 +1,40 @@
+{
+  "id": "altorreal",
+  "name": "Club de Golf Altorreal",
+  "location": "Molina de Segura, Murcia",
+  "parTotal": 72,
+  "verified": true,
+  "holes": [
+    { "number": 1, "par": 4, "strokeIndex": 7 },
+    { "number": 2, "par": 4, "strokeIndex": 11 },
+    { "number": 3, "par": 4, "strokeIndex": 5 },
+    { "number": 4, "par": 4, "strokeIndex": 13 },
+    { "number": 5, "par": 3, "strokeIndex": 15 },
+    { "number": 6, "par": 5, "strokeIndex": 3 },
+    { "number": 7, "par": 4, "strokeIndex": 9 },
+    { "number": 8, "par": 3, "strokeIndex": 17 },
+    { "number": 9, "par": 5, "strokeIndex": 1 },
+    { "number": 10, "par": 3, "strokeIndex": 16 },
+    { "number": 11, "par": 5, "strokeIndex": 4 },
+    { "number": 12, "par": 4, "strokeIndex": 2 },
+    { "number": 13, "par": 4, "strokeIndex": 6 },
+    { "number": 14, "par": 4, "strokeIndex": 12 },
+    { "number": 15, "par": 5, "strokeIndex": 14 },
+    { "number": 16, "par": 4, "strokeIndex": 10 },
+    { "number": 17, "par": 3, "strokeIndex": 18 },
+    { "number": 18, "par": 4, "strokeIndex": 8 }
+  ],
+  "tees": [
+    { "name": "Blancas", "color": "white", "gender": "male", "courseRating": 72.9, "slope": 128, "distances": [304, 329, 380, 335, 143, 534, 362, 207, 517, 176, 473, 394, 376, 352, 453, 362, 149, 372], "totalMeters": 6218 },
+    { "name": "Amarillas", "color": "gold", "gender": "male", "courseRating": 71.6, "slope": 127, "distances": [287, 322, 365, 322, 137, 534, 339, 178, 489, 172, 468, 378, 360, 330, 433, 357, 144, 359], "totalMeters": 5974 },
+    { "name": "Azules", "color": "blue", "gender": "male", "courseRating": 69.8, "slope": 123, "distances": [278, 300, 329, 305, 133, 497, 331, 145, 456, 158, 439, 372, 345, 314, 408, 327, 113, 345], "totalMeters": 5595 },
+    { "name": "Azules (W)", "color": "blue", "gender": "female", "courseRating": 76.0, "slope": 135, "distances": [278, 300, 329, 305, 133, 497, 331, 145, 456, 158, 439, 372, 345, 314, 408, 327, 113, 345], "totalMeters": 5595 },
+    { "name": "Rojas", "color": "red", "gender": "male", "courseRating": 67.6, "slope": 115, "distances": [263, 288, 287, 269, 93, 461, 312, 121, 406, 149, 352, 363, 332, 299, 393, 301, 107, 332], "totalMeters": 5128 },
+    { "name": "Rojas (W)", "color": "red", "gender": "female", "courseRating": 73.0, "slope": 131, "distances": [263, 288, 287, 269, 93, 461, 312, 121, 406, 149, 352, 363, 332, 299, 393, 301, 107, 332], "totalMeters": 5128 }
+  ],
+  "sources": [
+    "https://rfeg.es/club/club_de_golf_altorreal?id=544",
+    "https://www.golfshake.com/course/view/23219/Club_de_Golf_Altorreal.html"
+  ],
+  "notes": "RFEG official card; ratings cross-checked with golfshake."
+}

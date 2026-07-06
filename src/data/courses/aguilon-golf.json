@@ -1,0 +1,43 @@
+{
+  "id": "aguilon-golf",
+  "name": "Aguilón Golf",
+  "location": "Pulpí (San Juan de los Terreros), Almería",
+  "parTotal": 71,
+  "verified": true,
+  "holes": [
+    { "number": 1, "par": 4, "strokeIndex": 4 },
+    { "number": 2, "par": 4, "strokeIndex": 12 },
+    { "number": 3, "par": 3, "strokeIndex": 6 },
+    { "number": 4, "par": 4, "strokeIndex": 9 },
+    { "number": 5, "par": 5, "strokeIndex": 7 },
+    { "number": 6, "par": 4, "strokeIndex": 8 },
+    { "number": 7, "par": 4, "strokeIndex": 11 },
+    { "number": 8, "par": 3, "strokeIndex": 18 },
+    { "number": 9, "par": 5, "strokeIndex": 1 },
+    { "number": 10, "par": 5, "strokeIndex": 10 },
+    { "number": 11, "par": 4, "strokeIndex": 13 },
+    { "number": 12, "par": 3, "strokeIndex": 5 },
+    { "number": 13, "par": 4, "strokeIndex": 3 },
+    { "number": 14, "par": 3, "strokeIndex": 15 },
+    { "number": 15, "par": 4, "strokeIndex": 17 },
+    { "number": 16, "par": 4, "strokeIndex": 16 },
+    { "number": 17, "par": 3, "strokeIndex": 14 },
+    { "number": 18, "par": 5, "strokeIndex": 2 }
+  ],
+  "tees": [
+    { "name": "Negras (Eagle)", "color": "black", "gender": "male", "courseRating": 72.5, "slope": 135, "distances": [401, 357, 199, 401, 481, 435, 358, 165, 542, 467, 328, 188, 390, 150, 271, 284, 130, 465], "totalMeters": 6012 },
+    { "name": "Blancas (Falcon)", "color": "white", "gender": "male", "courseRating": 71.3, "slope": 132, "distances": [401, 322, 174, 377, 481, 389, 345, 165, 474, 435, 328, 188, 377, 150, 271, 284, 130, 465], "totalMeters": 5756 },
+    { "name": "Amarillas (Partridge)", "color": "gold", "gender": "male", "courseRating": 67.9, "slope": 124, "distances": [362, 260, 148, 337, 455, 338, 310, 154, 459, 400, 295, 136, 329, 128, 241, 284, 103, 390], "totalMeters": 5129 },
+    { "name": "Amarillas (Partridge, W)", "color": "gold", "gender": "female", "courseRating": 72.7, "slope": 140, "distances": [362, 260, 148, 337, 455, 338, 310, 154, 459, 400, 295, 136, 329, 128, 241, 284, 103, 390], "totalMeters": 5129 },
+    { "name": "Azules (Sparrow)", "color": "blue", "gender": "male", "courseRating": 64.2, "slope": 112, "distances": [313, 242, 124, 275, 426, 281, 275, 127, 398, 375, 265, 122, 310, 81, 221, 221, 76, 371], "totalMeters": 4503 },
+    { "name": "Azules (Sparrow, W)", "color": "blue", "gender": "female", "courseRating": 68.6, "slope": 123, "distances": [313, 242, 124, 275, 426, 281, 275, 127, 398, 375, 265, 122, 310, 81, 221, 221, 76, 371], "totalMeters": 4503 },
+    { "name": "Rojas (Red Lowry)", "color": "red", "gender": "male", "courseRating": 62.9, "slope": 107, "distances": [275, 222, 103, 236, 391, 255, 222, 106, 367, 375, 265, 103, 278, 81, 200, 221, 76, 371], "totalMeters": 4147 },
+    { "name": "Rojas (Red Lowry, W)", "color": "red", "gender": "female", "courseRating": 66.9, "slope": 119, "distances": [275, 222, 103, 236, 391, 255, 222, 106, 367, 375, 265, 103, 278, 81, 200, 221, 76, 371], "totalMeters": 4147 }
+  ],
+  "sources": [
+    "https://www.rfeg.es/club/aguilon_golf?id=367",
+    "https://aguilon.golf/campo-de-golf/hoyo-a-hoyo/",
+    "https://www.golfshake.com/course/view/69642/Aguilon_Golf.html"
+  ],
+  "notes": "RFEG official card (par 71 — the club's marketing says par 70 but RFEG and the hole-18 par 5 confirm 71). Stroke index shown is the RFEG men's Negras/Blancas allocation; RFEG publishes slightly different SI sets for Amarillas and Azules/Rojas."
+}
