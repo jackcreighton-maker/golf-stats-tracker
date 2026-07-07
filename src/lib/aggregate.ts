@@ -12,6 +12,9 @@ export interface AggregateStats {
   girPct: number | null
   firPct: number | null
   scramblePct: number | null
+  /** Out-of-position tee shots per round, and as a % of driving holes */
+  outOfPositionPerRound: number
+  outOfPositionPct: number | null
   threePuttsPerRound: number
   blowUpsPerRound: number
   penaltiesPerRound: number
@@ -29,6 +32,7 @@ export function aggregate(roundsNewestFirst: Round[], courses: Map<string, Cours
 
   let gross = 0, toPar = 0, points = 0, putts = 0
   let gir = 0, girEl = 0, fir = 0, firEl = 0, scr = 0, scrEl = 0
+  let oop = 0, drivingHoles = 0
   let threePutts = 0, blowUps = 0, penalties = 0
   const byPar: Record<3 | 4 | 5, { total: number; holes: number }> = { 3: { total: 0, holes: 0 }, 4: { total: 0, holes: 0 }, 5: { total: 0, holes: 0 } }
   const sgAcc = {
@@ -50,6 +54,7 @@ export function aggregate(roundsNewestFirst: Round[], courses: Map<string, Cours
     gir += s.girCount; girEl += s.girEligible
     fir += s.firCount; firEl += s.firEligible
     scr += s.scrambleSuccesses; scrEl += s.scrambleChances
+    oop += s.outOfPosition; drivingHoles += s.drivingHoles
     threePutts += s.threePutts
     blowUps += s.blowUps
     penalties += s.penalties
@@ -81,6 +86,8 @@ export function aggregate(roundsNewestFirst: Round[], courses: Map<string, Cours
     girPct: girEl ? (gir / girEl) * 100 : null,
     firPct: firEl ? (fir / firEl) * 100 : null,
     scramblePct: scrEl ? (scr / scrEl) * 100 : null,
+    outOfPositionPerRound: oop / n,
+    outOfPositionPct: drivingHoles ? (oop / drivingHoles) * 100 : null,
     threePuttsPerRound: threePutts / n,
     blowUpsPerRound: blowUps / n,
     penaltiesPerRound: penalties / n,

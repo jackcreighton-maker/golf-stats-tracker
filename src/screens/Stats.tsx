@@ -61,6 +61,7 @@ export default function Stats({ navigate }: { navigate: Navigate }) {
             <div className="stat-tile"><div className="label">GIR</div><div className="val">{agg.girPct != null ? `${agg.girPct.toFixed(0)}%` : '—'}</div></div>
             <div className="stat-tile"><div className="label">Fairways</div><div className="val">{agg.firPct != null ? `${agg.firPct.toFixed(0)}%` : '—'}</div></div>
             <div className="stat-tile"><div className="label">Scrambling</div><div className="val">{agg.scramblePct != null ? `${agg.scramblePct.toFixed(0)}%` : '—'}</div></div>
+            <div className="stat-tile"><div className="label">Out of position</div><div className="val">{agg.outOfPositionPct != null ? `${agg.outOfPositionPct.toFixed(0)}%` : '—'}</div><div className="muted small">{agg.outOfPositionPerRound.toFixed(1)} /rd off tee</div></div>
             <div className="stat-tile"><div className="label">Blow-ups /rd</div><div className="val">{agg.blowUpsPerRound.toFixed(1)}</div><div className="muted small">double or worse</div></div>
             <div className="stat-tile"><div className="label">Penalties /rd</div><div className="val">{agg.penaltiesPerRound.toFixed(1)}</div></div>
           </div>

@@ -10,6 +10,7 @@ export default function NewRound({ navigate }: { navigate: Navigate }) {
   const [search, setSearch] = useState('')
   const [teeName, setTeeName] = useState<string | null>(null)
   const [startingHole, setStartingHole] = useState<StartingHole>(1)
+  const [otherStart, setOtherStart] = useState(false)
   const [playingHandicap, setPlayingHandicap] = useState<string>('')
 
   useEffect(() => {
@@ -110,12 +111,22 @@ export default function NewRound({ navigate }: { navigate: Navigate }) {
           <div className="field">
             <label>Starting hole</label>
             <div className="seg">
-              {([1, 10, 18] as StartingHole[]).map((h) => (
-                <button key={h} className={startingHole === h ? 'on' : ''} onClick={() => setStartingHole(h)}>
-                  {h}
-                </button>
-              ))}
+              <button className={!otherStart && startingHole === 1 ? 'on' : ''} onClick={() => { setOtherStart(false); setStartingHole(1) }}>1</button>
+              <button className={!otherStart && startingHole === 10 ? 'on' : ''} onClick={() => { setOtherStart(false); setStartingHole(10) }}>10</button>
+              <button
+                className={otherStart ? 'on' : ''}
+                onClick={() => { setOtherStart(true); if (startingHole === 1 || startingHole === 10) setStartingHole(2) }}
+              >
+                Other{otherStart ? ` · ${startingHole}` : ''}
+              </button>
             </div>
+            {otherStart && (
+              <select value={startingHole} onChange={(e) => setStartingHole(Number(e.target.value))} style={{ marginTop: 8 }}>
+                {Array.from({ length: 18 }, (_, i) => i + 1).map((h) => (
+                  <option key={h} value={h}>Hole {h}</option>
+                ))}
+              </select>
+            )}
           </div>
 
           <div className="field">

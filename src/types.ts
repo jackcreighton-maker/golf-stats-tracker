@@ -52,6 +52,8 @@ export interface HoleEntry {
   putts: number | null
   /** Only meaningful on par 4/5; 'na' = didn't record */
   teeResult: TeeResult
+  /** Tee shot left you unable to play a normal next shot (par 4/5 only) */
+  teeOutOfPosition?: boolean
   penalties: number
   /** Ball was in a bunker at some point on this hole */
   bunker: boolean
@@ -61,7 +63,8 @@ export interface HoleEntry {
   pickedUp?: boolean
 }
 
-export type StartingHole = 1 | 10 | 18
+/** The hole a round is started from, 1–18 (wraps around from there). */
+export type StartingHole = number
 
 export interface Round {
   id?: number

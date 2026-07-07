@@ -64,6 +64,7 @@ export default function Summary({ navigate, roundId, from }: { navigate: Navigat
         <div className="stat-tile"><div className="label">Fairways</div><div className="val">{pct(stats.firCount, stats.firEligible)}</div></div>
         <div className="stat-tile"><div className="label">3-putts</div><div className="val">{stats.threePutts}</div></div>
         <div className="stat-tile"><div className="label">Scrambling</div><div className="val">{pct(stats.scrambleSuccesses, stats.scrambleChances)}</div></div>
+        <div className="stat-tile"><div className="label">Out of position</div><div className="val">{stats.outOfPosition}</div><div className="muted small">off {stats.drivingHoles} drive{stats.drivingHoles === 1 ? '' : 's'}</div></div>
         <div className="stat-tile"><div className="label">Penalties</div><div className="val">{stats.penalties}</div></div>
       </div>
 

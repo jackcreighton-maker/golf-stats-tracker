@@ -109,6 +109,41 @@ describe('deriveHole', () => {
     expect(deriveHole(entry(1, { score: 6, putts: 3 }), 4).threePutt).toBe(true)
     expect(deriveHole(entry(1, { score: 4, putts: 2 }), 4).threePutt).toBe(false)
   })
+  it('out of position: only on counted driving holes, false when unset', () => {
+    expect(deriveHole(entry(1, { score: 4, putts: 2, teeOutOfPosition: true }), 4).outOfPosition).toBe(true)
+    expect(deriveHole(entry(1, { score: 4, putts: 2 }), 4).outOfPosition).toBe(false)
+    // par 3 is not a driving hole
+    expect(deriveHole(entry(1, { score: 3, putts: 2, teeOutOfPosition: true }), 3).outOfPosition).toBeNull()
+    // picked up is not counted
+    expect(deriveHole(entry(1, { score: 8, pickedUp: true, teeOutOfPosition: true }), 4).outOfPosition).toBeNull()
+  })
+})
+
+describe('roundStats out-of-position counting', () => {
+  const round: Round = {
+    date: '2026-07-06',
+    courseId: 'test',
+    teeName: 'Yellow',
+    playingHandicap: 0,
+    startingHole: 1,
+    status: 'complete',
+    holes: [
+      entry(1, { score: 4, putts: 2, teeResult: 'left', teeOutOfPosition: true }), // par 4, OOP
+      entry(2, { score: 6, putts: 2, teeOutOfPosition: true }), // par 5, OOP
+      entry(3, { score: 3, putts: 2, teeOutOfPosition: true }), // par 3, ignored
+      entry(4, { score: 8, putts: 2, pickedUp: true, teeOutOfPosition: true }), // picked up, ignored
+      ...Array.from({ length: 14 }, (_, i) => entry(i + 5, { score: course.holes[i + 4].par, putts: 2 })),
+    ],
+  }
+  it('counts OOP only on counted driving holes', () => {
+    const s = roundStats(round, course)
+    expect(s.outOfPosition).toBe(2)
+    // driving holes among counted: holes 1(4),2(5),5(3→no),... — count par 4/5 that were scored & not picked up
+    const expectedDriving = round.holes.filter(
+      (h, i) => h.score != null && !h.pickedUp && course.holes[i].par >= 4,
+    ).length
+    expect(s.drivingHoles).toBe(expectedDriving)
+  })
 })
 
 describe('roundTotals / roundStats on a hand-computed 18-hole card', () => {
@@ -146,6 +181,8 @@ describe('roundTotals / roundStats on a hand-computed 18-hole card', () => {
     expect(s.firEligible).toBe(12)
     expect(s.threePutts).toBe(0)
     expect(s.blowUps).toBe(0)
+    expect(s.drivingHoles).toBe(12)
+    expect(s.outOfPosition).toBe(0)
     expect(s.distribution.bogey).toBe(18)
     // scramble: missed every green, never saved par
     expect(s.scrambleChances).toBe(18)
@@ -225,5 +262,14 @@ describe('holePlayOrder', () => {
     expect(order[0]).toBe(18)
     expect(order[1]).toBe(1)
     expect(order[17]).toBe(17)
+  })
+  it('wraps around from an arbitrary hole (7)', () => {
+    const order = holePlayOrder(7)
+    expect(order[0]).toBe(7)
+    expect(order[11]).toBe(18)
+    expect(order[12]).toBe(1)
+    expect(order[17]).toBe(6)
+    // still a permutation of 1..18
+    expect(new Set(order).size).toBe(18)
   })
 })

@@ -123,6 +123,14 @@ export default function Play({ navigate, roundId }: { navigate: Navigate; roundI
               </button>
             ))}
           </div>
+          <div className="seg" style={{ marginTop: 6 }}>
+            <button
+              className={entry.teeOutOfPosition ? 'on warn' : ''}
+              onClick={() => update({ teeOutOfPosition: !entry.teeOutOfPosition })}
+            >
+              Out of position
+            </button>
+          </div>
         </div>
       )}
 

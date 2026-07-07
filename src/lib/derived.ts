@@ -12,6 +12,8 @@ export interface HoleDerived {
   gir: boolean | null
   /** Fairway hit; null when not a driving hole or not recorded */
   fir: boolean | null
+  /** Tee shot left you out of position; null when not a driving hole */
+  outOfPosition: boolean | null
   /** Missed GIR — a scramble opportunity */
   scrambleChance: boolean | null
   /** Missed GIR and still made par or better */
@@ -29,6 +31,7 @@ export function deriveHole(entry: HoleEntry, par: number): HoleDerived {
   const gir = counted && score != null && putts != null ? score - putts <= par - 2 : null
   const isDrivingHole = par >= 4
   const fir = isDrivingHole && entry.teeResult !== 'na' ? entry.teeResult === 'fairway' : null
+  const outOfPosition = counted && isDrivingHole ? !!entry.teeOutOfPosition : null
   const scrambleChance = gir == null ? null : !gir
   const scrambleSuccess = scrambleChance ? score! <= par : scrambleChance == null ? null : false
   const sandSave = counted && entry.bunker ? score! <= par : null
@@ -40,6 +43,7 @@ export function deriveHole(entry: HoleEntry, par: number): HoleDerived {
     toPar: counted ? score! - par : 0,
     gir,
     fir,
+    outOfPosition,
     scrambleChance,
     scrambleSuccess,
     sandSave,
@@ -55,6 +59,10 @@ export interface RoundStats {
   girEligible: number
   firCount: number
   firEligible: number
+  /** Driving holes (par 4/5) played, the denominator for out-of-position rate */
+  drivingHoles: number
+  /** Driving holes where the tee shot left you out of position */
+  outOfPosition: number
   putts: number
   puttHoles: number
   puttsPerGir: number | null
@@ -81,6 +89,8 @@ export function roundStats(round: Round, course: Course): RoundStats {
     girEligible: 0,
     firCount: 0,
     firEligible: 0,
+    drivingHoles: 0,
+    outOfPosition: 0,
     putts: 0,
     puttHoles: 0,
     puttsPerGir: null,
@@ -116,6 +126,10 @@ export function roundStats(round: Round, course: Course): RoundStats {
     if (d.fir != null) {
       s.firEligible++
       if (d.fir) s.firCount++
+    }
+    if (d.outOfPosition != null) {
+      s.drivingHoles++
+      if (d.outOfPosition) s.outOfPosition++
     }
     if (entry.putts != null) {
       s.putts += entry.putts
