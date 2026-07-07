@@ -111,7 +111,7 @@ export default function Play({ navigate, roundId }: { navigate: Navigate; roundI
                 ['left', '← Left'],
                 ['fairway', 'Fairway'],
                 ['right', 'Right →'],
-                ['penalty', 'Penalty'],
+                ['penalty', 'OB / hazard'],
               ] as [TeeResult, string][]
             ).map(([val, label]) => (
               <button
