@@ -78,6 +78,8 @@ export interface Round {
   holes: HoleEntry[]
   notes?: string
   status: 'active' | 'complete'
+  /** true = generated sample data (removable in one tap; never mixed with real rounds) */
+  demo?: boolean
 }
 
 export interface Settings {

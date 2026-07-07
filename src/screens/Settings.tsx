@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import db, { getSettings, saveSettings } from '../db'
+import { clearSampleData, loadSampleData } from '../data/sampleData'
 import type { Navigate } from '../App'
 import type { Course, Round, Settings as SettingsType } from '../types'
 
@@ -107,6 +108,29 @@ export default function Settings({ navigate: _navigate }: { navigate: Navigate }
           style={{ display: 'none' }}
           onChange={(e) => { const f = e.target.files?.[0]; if (f) importData(f); e.target.value = '' }}
         />
+      </div>
+
+      <div className="card">
+        <h2>Sample data</h2>
+        <p className="muted small" style={{ marginBottom: 10 }}>
+          Load a set of demo rounds to preview the Stats screen, then remove them. Kept separate from your real rounds.
+        </p>
+        <button
+          className="btn btn-secondary btn-block"
+          style={{ marginBottom: 8 }}
+          onClick={async () => setMessage(`Loaded ${await loadSampleData()} sample rounds.`)}
+        >
+          Load sample rounds
+        </button>
+        <button
+          className="btn btn-danger btn-block"
+          onClick={async () => {
+            const n = await clearSampleData()
+            setMessage(n ? `Removed ${n} sample rounds.` : 'No sample rounds to remove.')
+          }}
+        >
+          Remove sample rounds
+        </button>
       </div>
 
       <div className="card muted small">
