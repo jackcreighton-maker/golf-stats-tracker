@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Home from './screens/Home'
 import NewRound from './screens/NewRound'
 import Play from './screens/Play'
@@ -27,6 +27,24 @@ const TABS: { view: View; label: string; icon: string }[] = [
 
 export default function App() {
   const [view, setView] = useState<View>({ name: 'home' })
+  const viewRef = useRef(view)
+  viewRef.current = view
+  // The Play screen registers a custom back action here (previous hole).
+  const backHandlerRef = useRef<(() => boolean) | null>(null)
+
+  // Trap the browser/hardware back gesture so it navigates inside the app
+  // instead of leaving to a blank page. Always re-arm so back never falls through.
+  useEffect(() => {
+    history.pushState(null, '')
+    const onPop = () => {
+      history.pushState(null, '')
+      const v = viewRef.current
+      if (v.name === 'play' && backHandlerRef.current?.()) return
+      if (v.name !== 'home') setView({ name: 'home' })
+    }
+    window.addEventListener('popstate', onPop)
+    return () => window.removeEventListener('popstate', onPop)
+  }, [])
 
   const screen = (() => {
     switch (view.name) {
@@ -35,7 +53,7 @@ export default function App() {
       case 'new-round':
         return <NewRound navigate={setView} />
       case 'play':
-        return <Play navigate={setView} roundId={view.roundId} />
+        return <Play navigate={setView} roundId={view.roundId} backHandlerRef={backHandlerRef} />
       case 'summary':
         return <Summary navigate={setView} roundId={view.roundId} from={view.from} />
       case 'stats':

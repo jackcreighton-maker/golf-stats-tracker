@@ -7,7 +7,15 @@ import { holePlayOrder, type ApproachBucket, type HoleEntry, type PuttBucket, ty
 import { APPROACH_BUCKET_LABELS, PUTT_BUCKET_LABELS } from '../lib/strokesGained'
 import type { Navigate } from '../App'
 
-export default function Play({ navigate, roundId }: { navigate: Navigate; roundId: number }) {
+export default function Play({
+  navigate,
+  roundId,
+  backHandlerRef,
+}: {
+  navigate: Navigate
+  roundId: number
+  backHandlerRef: { current: (() => boolean) | null }
+}) {
   const round = useLiveQuery(() => db.rounds.get(roundId), [roundId])
   const course = useCourse(round?.courseId ?? null)
   const [orderIndex, setOrderIndex] = useState<number | null>(null)
@@ -21,6 +29,20 @@ export default function Play({ navigate, roundId }: { navigate: Navigate; roundI
       setOrderIndex(first === -1 ? 0 : first)
     }
   }, [round, orderIndex])
+
+  // Back gesture → previous hole; App sends us Home when this returns false (first hole).
+  useEffect(() => {
+    backHandlerRef.current = () => {
+      if (orderIndex != null && orderIndex > 0) {
+        setOrderIndex(orderIndex - 1)
+        return true
+      }
+      return false
+    }
+    return () => {
+      backHandlerRef.current = null
+    }
+  }, [backHandlerRef, orderIndex])
 
   if (!round || !course || orderIndex === null) return <div className="screen" />
 
@@ -50,13 +72,28 @@ export default function Play({ navigate, roundId }: { navigate: Navigate; roundI
   const displayScore = entry.score ?? info.par
   const scoreCommitted = entry.score != null
 
-  function go(delta: number) {
-    const next = idx + delta
-    if (next >= 0 && next < 18) setOrderIndex(next)
+  /** Commit the shown score (defaults to par) if the hole hasn't been entered yet. */
+  async function saveCurrentHole() {
+    if (entry.score == null && !entry.pickedUp) {
+      const patch: Partial<HoleEntry> = { score: displayScore }
+      if (entry.putts == null) patch.putts = 2
+      await update(patch)
+    }
+  }
+
+  function goToIndex(i: number) {
+    if (i >= 0 && i < 18) setOrderIndex(i)
+  }
+
+  async function next() {
+    await saveCurrentHole()
+    goToIndex(idx + 1)
   }
 
   async function finish() {
-    const missing = round!.holes.filter((h) => h.score == null && !h.pickedUp).length
+    await saveCurrentHole()
+    // The current hole is saved above, so exclude it from the missing count.
+    const missing = round!.holes.filter((h) => h.hole !== holeNo && h.score == null && !h.pickedUp).length
     if (missing > 0 && !window.confirm(`${missing} hole${missing > 1 ? 's' : ''} without a score. Finish anyway?`)) return
     await db.rounds.update(roundId, { status: 'complete' })
     navigate({ name: 'summary', roundId, from: 'play' })
@@ -190,11 +227,11 @@ export default function Play({ navigate, roundId }: { navigate: Navigate; roundI
       </div>
 
       <div className="hole-nav">
-        <button className="btn btn-secondary" disabled={idx <= 0} style={idx <= 0 ? { opacity: 0.4 } : undefined} onClick={() => go(-1)}>
+        <button className="btn btn-secondary" disabled={idx <= 0} style={idx <= 0 ? { opacity: 0.4 } : undefined} onClick={() => goToIndex(idx - 1)}>
           ‹ Prev
         </button>
         {idx < 17 ? (
-          <button className="btn btn-primary" onClick={() => go(1)}>Next ›</button>
+          <button className="btn btn-primary" onClick={next}>Next ›</button>
         ) : (
           <button className="btn btn-primary" onClick={finish}>Finish round ✓</button>
         )}
