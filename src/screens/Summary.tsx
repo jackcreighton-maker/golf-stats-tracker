@@ -3,9 +3,10 @@ import db from '../db'
 import { useCourse } from '../courseStore'
 import { roundTotals } from '../lib/scoring'
 import { roundStats } from '../lib/derived'
-import { roundSG } from '../lib/strokesGained'
+import { distanceStats } from '../lib/distanceStats'
+import { APPROACH_BUCKETS, APPROACH_BUCKET_LABELS } from '../lib/buckets'
 import Scorecard from '../components/Scorecard'
-import SGBars from '../components/SGBars'
+import BandBars from '../components/BandBars'
 import type { Navigate } from '../App'
 
 function pct(n: number, of: number): string {
@@ -20,7 +21,7 @@ export default function Summary({ navigate, roundId, from }: { navigate: Navigat
 
   const totals = roundTotals(round, course)
   const stats = roundStats(round, course)
-  const sg = roundSG(round, course)
+  const dist = distanceStats([round], new Map([[course.id, course]]))
 
   async function deleteRound() {
     if (!window.confirm('Delete this round? This cannot be undone.')) return
@@ -66,12 +67,20 @@ export default function Summary({ navigate, roundId, from }: { navigate: Navigat
         <div className="stat-tile"><div className="label">Scrambling</div><div className="val">{pct(stats.scrambleSuccesses, stats.scrambleChances)}</div></div>
         <div className="stat-tile"><div className="label">Out of position</div><div className="val">{stats.outOfPosition}</div><div className="muted small">off {stats.drivingHoles} drive{stats.drivingHoles === 1 ? '' : 's'}</div></div>
         <div className="stat-tile"><div className="label">Penalties</div><div className="val">{stats.penalties}</div></div>
+        <div className="stat-tile"><div className="label">Blow-ups</div><div className="val">{stats.blowUps}</div><div className="muted small">double or worse</div></div>
       </div>
 
-      <div className="card">
-        <h2>Strokes gained (approx.)</h2>
-        <SGBars sg={sg} />
-      </div>
+      {dist.approachHoles > 0 && (
+        <div className="card">
+          <h2>Greens hit by approach distance</h2>
+          <BandBars
+            bands={APPROACH_BUCKETS.map((b) => {
+              const a = dist.approach[b]
+              return { label: APPROACH_BUCKET_LABELS[b], pct: a.holes ? (a.gir / a.holes) * 100 : null, caption: a.holes ? `(${a.holes})` : '' }
+            })}
+          />
+        </div>
+      )}
 
       <div className="hole-nav">
         <button className="btn btn-secondary" onClick={reopenRound}>Edit round</button>

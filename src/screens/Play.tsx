@@ -4,7 +4,7 @@ import db from '../db'
 import { useCourse } from '../courseStore'
 import { roundTotals, strokesReceived } from '../lib/scoring'
 import { holePlayOrder, type ApproachBucket, type HoleEntry, type PuttBucket, type TeeResult } from '../types'
-import { APPROACH_BUCKET_LABELS, PUTT_BUCKET_LABELS } from '../lib/strokesGained'
+import { APPROACH_BUCKET_LABELS, PUTT_BUCKET_LABELS } from '../lib/buckets'
 import type { Navigate } from '../App'
 
 export default function Play({
@@ -195,7 +195,7 @@ export default function Play({
       </div>
 
       <div className="card">
-        <h2 className="optional-label">Optional — strokes gained</h2>
+        <h2 className="optional-label">Optional — distances</h2>
         <div className="field" style={{ marginBottom: 10 }}>
           <label className="small muted">Approach from</label>
           <div className="seg">

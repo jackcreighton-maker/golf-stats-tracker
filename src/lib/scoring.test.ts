@@ -1,7 +1,10 @@
 import { describe, expect, it } from 'vitest'
 import { netScore, roundTotals, stablefordPoints, strokesReceived } from './scoring'
 import { deriveHole, roundStats } from './derived'
-import { holeSG, roundSG } from './strokesGained'
+import { aggregate, scoringDifferential, type AggregateStats } from './aggregate'
+import { focusAreas } from './benchmarks'
+import { distanceStats } from './distanceStats'
+import { direction, rollingAvg } from './trends'
 import { emptyHoleEntry, holePlayOrder, type Course, type HoleEntry, type Round } from '../types'
 
 // A par-72 test course: SI 1..18 assigned so hole n has stroke index n.
@@ -16,7 +19,7 @@ const course: Course = {
     par: [4, 5, 3][i % 3] as number, // 6× each → par 72
     strokeIndex: i + 1,
   })),
-  tees: [],
+  tees: [{ name: 'Yellow', color: 'gold', gender: 'male', courseRating: 70.0, slope: 120, distances: null, totalMeters: null }],
 }
 
 function entry(hole: number, patch: Partial<HoleEntry>): HoleEntry {
@@ -191,57 +194,109 @@ describe('roundTotals / roundStats on a hand-computed 18-hole card', () => {
   })
 })
 
-describe('strokes gained approximation', () => {
-  it('putting: one-putt from 2-4 m gains, three-putt from <2 m loses', () => {
-    const onePutt = holeSG(entry(1, { score: 4, putts: 1, firstPuttBucket: 'b2_4' }), 4)
-    expect(onePutt.putting).toBeCloseTo(0.65, 5) // 1.65 - 1
-    const threePutt = holeSG(entry(1, { score: 6, putts: 3, firstPuttBucket: 'lt2' }), 4)
-    expect(threePutt.putting).toBeCloseTo(-1.85, 5) // 1.15 - 3
+describe('scoringDifferential', () => {
+  it('normalises gross by CR/slope', () => {
+    const tee = course.tees[0] // CR 70, slope 120
+    expect(scoringDifferential(88, tee)).toBeCloseTo(((88 - 70) * 113) / 120, 5)
   })
-  it('clean GIR hole attributes segment to approach with zero short game', () => {
-    // Par 4, score 4, 2 putts, approach 110-160, first putt 4-9 m.
-    // shotsBetween = 4 - 1 - 2 = 1 → approach = 3.0 - 1 - 1.92 = 0.08
-    const sg = holeSG(entry(1, { score: 4, putts: 2, approachBucket: 'b110_160', firstPuttBucket: 'b4_9', teeResult: 'fairway' }), 4)
-    expect(sg.approach).toBeCloseTo(0.08, 5)
-    expect(sg.shortGame).toBe(0)
-    expect(sg.tee).toBeCloseTo(0.1, 5)
+  it('is null without CR/slope', () => {
+    expect(scoringDifferential(88, undefined)).toBeNull()
+    expect(scoringDifferential(88, { ...course.tees[0], courseRating: null })).toBeNull()
   })
-  it('missed green splits segment into approach and short game', () => {
-    // Par 4, score 5, 2 putts → shotsBetween = 2 (approach + chip)
-    const sg = holeSG(entry(1, { score: 5, putts: 2, approachBucket: 'b110_160', firstPuttBucket: 'lt2' }), 4)
-    // approach = 3.0 - 1 - 2.5 = -0.5; segment = 3.0 - 2 - 1.15 = -0.15; shortGame = -0.15 - (-0.5) = 0.35
-    expect(sg.approach).toBeCloseTo(-0.5, 5)
-    expect(sg.shortGame).toBeCloseTo(0.35, 5)
+})
+
+describe('aggregate: errors, differential and series', () => {
+  function allPars(patch: (h: number) => Partial<HoleEntry> = () => ({})): HoleEntry[] {
+    return course.holes.map((info) => entry(info.number, { score: info.par, putts: 2, teeResult: info.par >= 4 ? 'fairway' : 'na', ...patch(info.number) }))
+  }
+  const clean: Round = { date: '2026-01-01', courseId: 'test', teeName: 'Yellow', playingHandicap: 0, startingHole: 1, status: 'complete', holes: allPars() }
+  const messy: Round = {
+    date: '2026-02-01', courseId: 'test', teeName: 'Yellow', playingHandicap: 0, startingHole: 1, status: 'complete',
+    holes: allPars((h) => (h === 1 ? { penalties: 1 } : h === 2 ? { putts: 3 } : h === 4 ? { teeOutOfPosition: true } : {})),
+  }
+
+  it('errorsPerRound = penalties + 3-putts + out-of-position, averaged', () => {
+    const agg = aggregate([messy, clean], new Map([['test', course]]))!
+    expect(agg.errorsPerRound).toBe(1.5) // (0 + 3) / 2
+    expect(agg.series.errors).toEqual([0, 3]) // chronological: clean then messy
   })
-  it('returns nulls when optional inputs are missing', () => {
-    const sg = holeSG(entry(1, { score: 4, putts: 2 }), 4)
-    expect(sg.approach).toBeNull()
-    expect(sg.putting).toBeNull()
-    expect(sg.tee).toBeNull()
+  it('computes average differential from CR/slope (both rounds gross 72)', () => {
+    const agg = aggregate([messy, clean], new Map([['test', course]]))!
+    expect(agg.avgDifferential).toBeCloseTo(((72 - 70) * 113) / 120, 5)
+    expect(agg.series.differential).toHaveLength(2)
   })
-  it('zero-putt holes (holed from off the green) do not produce putting SG', () => {
-    const sg = holeSG(entry(1, { score: 3, putts: 0, firstPuttBucket: 'lt2' }), 4)
-    expect(sg.putting).toBeNull()
-  })
-  it('roundSG aggregates only holes with data', () => {
-    const round: Round = {
-      date: '2026-07-06',
-      courseId: 'test',
-      teeName: 'Yellow',
-      playingHandicap: 18,
-      startingHole: 1,
-      status: 'complete',
-      holes: [
-        entry(1, { score: 4, putts: 2, firstPuttBucket: 'b2_4' }),
-        entry(2, { score: 5, putts: 2 }),
-        ...Array.from({ length: 16 }, (_, i) => entry(i + 3, {})),
-      ],
+})
+
+describe('focusAreas', () => {
+  function makeAgg(partial: Partial<AggregateStats>): AggregateStats {
+    const emptySeries = { points: [], putts: [], gir: [], fir: [], errors: [], threePutts: [], penalties: [], scrambling: [], differential: [] }
+    return {
+      rounds: 6, avgGross: 90, avgToPar: 18, avgPoints: 34, avgPutts: 34,
+      girPct: 28, firPct: 52, scramblePct: 22, outOfPositionPerRound: 0, outOfPositionPct: 0,
+      threePuttsPerRound: 3, blowUpsPerRound: 0, penaltiesPerRound: 3, errorsPerRound: 0, avgDifferential: null,
+      avgToParByPar: { 3: null, 4: null, 5: null }, series: emptySeries,
+      ...partial,
     }
-    const sg = roundSG(round, course)
-    expect(sg.putting?.holes).toBe(1)
-    expect(sg.putting?.value).toBeCloseTo(-0.35, 5) // 1.65 - 2
-    expect(sg.approach).toBeNull()
-    expect(sg.vsBenchmark).not.toBeNull()
+  }
+
+  it('ranks the metrics furthest behind the handicap target, most severe first', () => {
+    const agg = makeAgg({
+      girPct: 30, firPct: 55, scramblePct: 25, // meeting/beating targets → excluded
+      avgPutts: 37, threePuttsPerRound: 4.5, penaltiesPerRound: 5, // behind targets 34 / 3 / 3
+    })
+    const focus = focusAreas(agg, 15)
+    // severities: penalties (2/3=.67) > threePutts (1.5/3=.5) > putts (3/34=.09)
+    expect(focus.map((f) => f.key)).toEqual(['penalties', 'threePutts', 'putts'])
+  })
+  it('flags a metric that is also trending the wrong way', () => {
+    const agg = makeAgg({
+      penaltiesPerRound: 5,
+      series: { points: [], putts: [], gir: [], fir: [], errors: [], threePutts: [], penalties: [2, 2, 4, 4, 6, 6], scrambling: [], differential: [] },
+    })
+    const pen = focusAreas(agg, 15).find((f) => f.key === 'penalties')!
+    expect(pen.trendingWrongWay).toBe(true) // penalties rising = worse
+  })
+  it('returns nothing when everything beats target', () => {
+    const agg = makeAgg({ girPct: 60, firPct: 70, scramblePct: 45, avgPutts: 28, threePuttsPerRound: 0.5, penaltiesPerRound: 0.5 })
+    expect(focusAreas(agg, 15)).toHaveLength(0)
+  })
+})
+
+describe('distanceStats', () => {
+  const round: Round = {
+    date: '2026-03-01', courseId: 'test', teeName: 'Yellow', playingHandicap: 0, startingHole: 1, status: 'complete',
+    holes: [
+      entry(1, { score: 4, putts: 2, approachBucket: 'b110_160', firstPuttBucket: 'b2_4' }), // par4 GIR
+      entry(2, { score: 7, putts: 3, approachBucket: 'b110_160', firstPuttBucket: 'b4_9' }), // par5 no GIR, 3-putt
+      entry(3, { score: 2, putts: 1, approachBucket: 'lt70', firstPuttBucket: 'lt2' }), // par3 GIR, 1-putt
+      ...Array.from({ length: 15 }, (_, i) => entry(i + 4, {})),
+    ],
+  }
+  const stats = distanceStats([round], new Map([['test', course]]))
+
+  it('tallies greens-hit by approach band', () => {
+    expect(stats.approach.b110_160.holes).toBe(2)
+    expect(stats.approach.b110_160.gir).toBe(1) // hole 1 yes, hole 2 no
+    expect(stats.approach.lt70.gir).toBe(1)
+    expect(stats.approachHoles).toBe(3)
+  })
+  it('tallies putting by first-putt band', () => {
+    expect(stats.putting.lt2.onePutt).toBe(1)
+    expect(stats.putting.b4_9.threePutt).toBe(1)
+    expect(stats.putting.b2_4.totalPutts).toBe(2)
+    expect(stats.puttingHoles).toBe(3)
+  })
+})
+
+describe('trends', () => {
+  it('rollingAvg trails over the window', () => {
+    expect(rollingAvg([1, 2, 3, 4], 2)).toEqual([1, 1.5, 2.5, 3.5])
+  })
+  it('direction detects up/down/flat and null below minimum', () => {
+    expect(direction([1, 2, 3, 4, 5, 6])).toBe('up')
+    expect(direction([6, 5, 4, 3])).toBe('down')
+    expect(direction([1, 1, 1, 1])).toBe('flat')
+    expect(direction([1, 2])).toBeNull()
   })
 })
 

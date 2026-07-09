@@ -1,7 +1,12 @@
 import type { Course, Round } from '../types'
 import { roundStats } from './derived'
 import { roundTotals } from './scoring'
-import { roundSG } from './strokesGained'
+
+/** Course-difficulty-normalised score for one round, or null when CR/slope is missing. */
+export function scoringDifferential(gross: number, tee: Course['tees'][number] | undefined): number | null {
+  if (!tee || tee.courseRating == null || tee.slope == null) return null
+  return ((gross - tee.courseRating) * 113) / tee.slope
+}
 
 export interface AggregateStats {
   rounds: number
@@ -12,17 +17,29 @@ export interface AggregateStats {
   girPct: number | null
   firPct: number | null
   scramblePct: number | null
-  /** Out-of-position tee shots per round, and as a % of driving holes */
   outOfPositionPerRound: number
   outOfPositionPct: number | null
   threePuttsPerRound: number
   blowUpsPerRound: number
   penaltiesPerRound: number
+  /** Avoidable mistakes per round = penalties + 3-putts + out-of-position drives */
+  errorsPerRound: number
+  /** Average scoring differential over rounds with CR/slope, else null */
+  avgDifferential: number | null
   avgToParByPar: Record<3 | 4 | 5, number | null>
-  /** Per-round average SG by category, over rounds that have data for it */
-  sg: Record<'tee' | 'approach' | 'shortGame' | 'putting', { perRound: number; rounds: number } | null>
-  /** Chronological (oldest → newest) trend series */
-  trends: { toPar: number[]; points: number[]; putts: number[] }
+  /** Per-round chronological (oldest → newest) series for KPI trends & focus flags */
+  series: {
+    points: number[]
+    putts: number[]
+    gir: number[]
+    fir: number[]
+    errors: number[]
+    threePutts: number[]
+    penalties: number[]
+    scrambling: number[]
+    /** Differentials only for rounds where CR/slope is known (may be shorter) */
+    differential: number[]
+  }
 }
 
 export function aggregate(roundsNewestFirst: Round[], courses: Map<string, Course>): AggregateStats | null {
@@ -33,15 +50,12 @@ export function aggregate(roundsNewestFirst: Round[], courses: Map<string, Cours
   let gross = 0, toPar = 0, points = 0, putts = 0
   let gir = 0, girEl = 0, fir = 0, firEl = 0, scr = 0, scrEl = 0
   let oop = 0, drivingHoles = 0
-  let threePutts = 0, blowUps = 0, penalties = 0
+  let threePutts = 0, blowUps = 0, penalties = 0, errors = 0
+  let diffSum = 0, diffCount = 0
   const byPar: Record<3 | 4 | 5, { total: number; holes: number }> = { 3: { total: 0, holes: 0 }, 4: { total: 0, holes: 0 }, 5: { total: 0, holes: 0 } }
-  const sgAcc = {
-    tee: { value: 0, rounds: 0 },
-    approach: { value: 0, rounds: 0 },
-    shortGame: { value: 0, rounds: 0 },
-    putting: { value: 0, rounds: 0 },
+  const series: AggregateStats['series'] = {
+    points: [], putts: [], gir: [], fir: [], errors: [], threePutts: [], penalties: [], scrambling: [], differential: [],
   }
-  const trends: AggregateStats['trends'] = { toPar: [], points: [], putts: [] }
 
   for (const r of chrono) {
     const course = courses.get(r.courseId)!
@@ -58,22 +72,30 @@ export function aggregate(roundsNewestFirst: Round[], courses: Map<string, Cours
     threePutts += s.threePutts
     blowUps += s.blowUps
     penalties += s.penalties
+    const roundErrors = s.penalties + s.threePutts + s.outOfPosition
+    errors += roundErrors
+
     for (const p of [3, 4, 5] as const) {
       byPar[p].total += s.byPar[p].avgToPar * s.byPar[p].holes
       byPar[p].holes += s.byPar[p].holes
     }
-    const sg = roundSG(r, course)
-    for (const k of ['tee', 'approach', 'shortGame', 'putting'] as const) {
-      const v = sg[k]
-      if (v) {
-        // Scale partial-data rounds up to a per-round (18-hole-equivalent) figure
-        sgAcc[k].value += (v.value / v.holes) * 18
-        sgAcc[k].rounds++
-      }
+
+    const tee = course.tees.find((te) => te.name === r.teeName)
+    const diff = scoringDifferential(t.gross, tee)
+    if (diff != null) {
+      diffSum += diff
+      diffCount++
+      series.differential.push(Math.round(diff * 10) / 10)
     }
-    trends.toPar.push(t.toPar)
-    trends.points.push(t.points)
-    trends.putts.push(t.putts)
+
+    series.points.push(t.points)
+    series.putts.push(t.putts)
+    series.gir.push(s.girEligible ? (s.girCount / s.girEligible) * 100 : 0)
+    series.fir.push(s.firEligible ? (s.firCount / s.firEligible) * 100 : 0)
+    series.errors.push(roundErrors)
+    series.threePutts.push(s.threePutts)
+    series.penalties.push(s.penalties)
+    series.scrambling.push(s.scrambleChances ? (s.scrambleSuccesses / s.scrambleChances) * 100 : 0)
   }
 
   const n = chrono.length
@@ -91,18 +113,14 @@ export function aggregate(roundsNewestFirst: Round[], courses: Map<string, Cours
     threePuttsPerRound: threePutts / n,
     blowUpsPerRound: blowUps / n,
     penaltiesPerRound: penalties / n,
+    errorsPerRound: errors / n,
+    avgDifferential: diffCount ? diffSum / diffCount : null,
     avgToParByPar: {
       3: byPar[3].holes ? byPar[3].total / byPar[3].holes : null,
       4: byPar[4].holes ? byPar[4].total / byPar[4].holes : null,
       5: byPar[5].holes ? byPar[5].total / byPar[5].holes : null,
     },
-    sg: Object.fromEntries(
-      (['tee', 'approach', 'shortGame', 'putting'] as const).map((k) => [
-        k,
-        sgAcc[k].rounds ? { perRound: sgAcc[k].value / sgAcc[k].rounds, rounds: sgAcc[k].rounds } : null,
-      ]),
-    ) as AggregateStats['sg'],
-    trends,
+    series,
   }
 }
 
